@@ -847,3 +847,35 @@ a > .project:hover{
 	height: 27px;
 	padding-left: 4px;
 }
+
+/*** READING GROUP ***/
+
+#reading-group table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+}
+
+#reading-group th {
+  font-size: 1.2em;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+#reading-group td {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 3px 5px;
+}
+
+#reading-group td:first-child {
+  width: 75px;
+  text-align: center;
+}
+
+#reading-group td:nth-child(2) {
+  width: 125px;
+  text-align: center;
+}
+
+#reading-group td:last-child {
+  width: 150px;
+}
