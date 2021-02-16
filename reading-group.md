@@ -28,7 +28,7 @@ Mar. 16 | Gabriel | [Feedback-driven semi-supervised synthesis of program transf
 Mar. 9 | Justin | *WIP:* How statically-typed functional programmers author code |
 Mar. 2 | Lisa | TBD |
 Feb. 23 | Sarah | [Formalizing visualization design knowledge as constraints](https://ieeexplore.ieee.org/document/8440847) |
-Feb. 16 | Gabriel | *WIP:* The state of the art in breaking changes | [How to break an API](https://dl.acm.org/doi/10.1145/2950290.2950325)
+Feb. 16 | Gabriel | *WIP:* [The state of the art in breaking changes](https://docs.google.com/presentation/d/1PaJzZOXh8z-9kIvRA0TRbaZqlxKevLaog5U-P9Rv7mc/edit?usp=sharing) | [How to break an API](https://dl.acm.org/doi/10.1145/2950290.2950325)
 Feb. 9 | Rolando | *WIP:* Understanding logging in machine learning in practice | [Software engineering for machine learning](https://dl.acm.org/doi/10.1109/ICSE-SEIP.2019.00042)
 Feb. 2 | Justin | [The role of working memory in program tracing](https://arxiv.org/abs/2101.06305) |
 Jan. 26 | All | Discuss lab name, pick readings for semester |
