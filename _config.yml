@@ -61,6 +61,12 @@ people:
     role: PhD Student
     roleindex: 1
     img: /assets/images/headshots/gmatute.jpg
+  - first: Lisa
+    last: Rennels
+    website: https://www.lisarennels.com/
+    role: Energy & Resources Group PhD Student, EECS MSc
+    roleindex: 2
+    img: /assets/images/headshots/lrennels.jpeg
 
 projects:
   - name: Helena
