@@ -90,8 +90,8 @@ projects:
     img: /assets/images/projects/flor.png
     website: https://github.com/ucbrise/flor/
     displayorder: 3
-  - name: ""
-    desc: A grounded theory of how statically-typed functional programmers author code; covering domain modeling, type construction, focusing techniques, exploratory strategies, mental models, and expressions of intent.
+  - name: "Statically-Typed Functional Program Authorship"
+    desc: A grounded theory of how statically-typed functional programmers write code, covering domain modeling, type construction, focusing techniques, exploratory strategies, mental models, and expressions of intent.
     img: /assets/images/projects/twitch.png
     displayorder: 1
   - name: ""
