@@ -73,6 +73,11 @@ people:
     role: PhD Student
     roleindex: 1
     img: /assets/images/headshots/rogarcia.jpeg
+  - first: Rajavi
+    last: Mishra
+    role: Undergraduate Student
+    roleindex: 3
+    img: /assets/images/headshots/rmishra.jpg
 
 projects:
   - name: Helena

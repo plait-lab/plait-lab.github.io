@@ -45,7 +45,9 @@ image: /assets/images/helena.png
 		{% for role in rolesSorted %}
 			{% assign people = role.items | sort: "last" %}
 			{% for person in people %}
-				<a href="{{ person.website }}" target="_blank">
+				{% if person.website %}
+					<a href="{{ person.website }}" target="_blank">
+				{% endif %}
 					<div class="person">
 						<div class="person-img-container">
 							<div class="square" style="background-image:url({{ person.img }}"></div>
@@ -55,7 +57,9 @@ image: /assets/images/helena.png
 							{{ person.role }}
 						</div>
 					</div>
-				</a>
+				{% if person.website %}
+					</a>
+				{% endif %}
 			{% endfor %}
 		{% endfor %}
 
@@ -70,7 +74,7 @@ image: /assets/images/helena.png
 		{% assign displayOrderSorted = site.projects | sort: 'displayorder'  %}
 		{% for project in displayOrderSorted %}
 			{% if project.website %}
-				<a href="{{ person.website }}" target="_blank">
+				<a href="{{ project.website }}" target="_blank">
 			{% endif %}
 				<div class="project">
 					<div class="project-img-container">
