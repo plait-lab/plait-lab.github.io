@@ -45,6 +45,6 @@ Nov. 16 | | OOPSLA attendance week! :-) |
 Nov. 9 | Justin | [egg](https://dl.acm.org/doi/10.1145/3434304) |
 Nov. 2 | Sarah | [Just-in-time learning for bottom-up enumerative synthesis](https://dl.acm.org/doi/10.1145/3428295) |
 Oct. 26 | Gabriel | [Verifying and improving Halide’s term rewriting system with program synthesis](https://dl.acm.org/doi/10.1145/3428234) |
-Oct. 19 | Sarah | Talk about conference culture, the space of conferences relevant to our work (and what work interests them) |
+Oct. 19 | Sarah | Chat about conference culture, the space of conferences relevant to our work (and what work interests them) |
 Oct. 12 | Justin | [Aligning development tools with the way programmers think about code changes](https://dl.acm.org/doi/10.1145/1240624.1240715) |
 Oct. 5 | All | Reading group planning |

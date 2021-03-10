@@ -76,23 +76,23 @@ people:
 
 projects:
   - name: Helena
-    desc: Programming-by-demonstration tool for automating repetitive interactions with webpages.
+    desc: Programming-by-demonstration tool for automating repetitive interactions with webpages.  Designed for non-programmers from the social sciences.
     img: /assets/images/projects/helena.png
     website: http://helena-lang.org/
-    displayorder: 0
+    displayorder: 4
   - name: FLOR
-    desc: "Fast Low-Overhead Recovery: Hindsight Logging toolkit for Model Training."
+    desc: "Fast Low-Overhead Recovery: Hindsight logging toolkit for model training."
     img: /assets/images/projects/flor.png
     website: https://github.com/ucbrise/flor/
-    displayorder: 1
-  - name: Test
-    desc: test
-    img: /assets/images/projects/helena.png
-    displayorder: 2
-  - name: Test
-    desc: test
-    img: /assets/images/projects/helena.png
     displayorder: 3
+  - name: ""
+    desc: A grounded theory of how statically-typed functional programmers author code; covering domain modeling, type construction, focusing techniques, exploratory strategies, mental models, and expressions of intent.
+    img: /assets/images/projects/twitch.png
+    displayorder: 1
+  - name: ""
+    desc: Program transformation tools for easing the library upgrade process.  Automatic upgrade for breaking changes.
+    img: /assets/images/projects/programtransform.png
+    displayorder: 2
 
 
 

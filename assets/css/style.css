@@ -831,6 +831,8 @@ a > .project:hover{
     background-position:top left;
     background-repeat:no-repeat;
     background-size:cover;
+    border: 1px #eeeeee solid;
+    border-radius: 5px;
 }
 
 .accent-color{
