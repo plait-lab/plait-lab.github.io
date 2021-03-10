@@ -21,10 +21,10 @@ May 4 | TBD | TBD |
 Apr. 27 | Gabriel | [Debug information validation for optimized code](https://dl.acm.org/doi/10.1145/3385412.3386020) |
 Apr. 20 | Justin | [REPLica](https://dl.acm.org/doi/doi/10.1145/3372885.3373823) |
 Apr. 13 | TBD | TBD |
-Apr. 6 | TBD | TBD |
+Apr. 6 | Gabriel | [Feedback-driven semi-supervised synthesis of program transformations](https://dl.acm.org/doi/10.1145/3428287) |
 Mar. 30 | TBD | TBD |
 Mar. 23 | | Spring recess |
-Mar. 16 | Gabriel | [Feedback-driven semi-supervised synthesis of program transformations](https://dl.acm.org/doi/10.1145/3428287) |
+Mar. 16 | Gabriel | [Enabling Data-Driven API Design with Community Usage Data: A Need-Finding Study](https://doi.org/10.1145/3313831.3376382) |
 Mar. 9 | Justin | *WIP:* How statically-typed functional programmers author code |
 Mar. 2 | Lisa | [Engineering the software for understanding climate change](https://ieeexplore.ieee.org/document/5337646) | [Video presentation](https://www.microsoft.com/en-us/research/video/engineering-the-software-for-understanding-climate-change/)
 Feb. 23 | Sarah | [Formalizing visualization design knowledge as constraints](https://ieeexplore.ieee.org/document/8440847) | [Project page](https://uwdata.github.io/draco/)
