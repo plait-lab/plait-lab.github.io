@@ -61,6 +61,18 @@ people:
     role: PhD Student
     roleindex: 1
     img: /assets/images/headshots/gmatute.jpg
+  - first: Lisa
+    last: Rennels
+    website: https://www.lisarennels.com/
+    role: Energy & Resources Group PhD Student, EECS MSc
+    roleindex: 2
+    img: /assets/images/headshots/lrennels.jpeg
+  - first: Rolando
+    last: Garcia
+    website: https://rlnsanz.github.io
+    role: PhD Student
+    roleindex: 1
+    img: /assets/images/headshots/rogarcia.jpeg
 
 projects:
   - name: Helena
@@ -68,14 +80,19 @@ projects:
     img: /assets/images/projects/helena.png
     website: http://helena-lang.org/
     displayorder: 0
+  - name: FLOR
+    desc: "Fast Low-Overhead Recovery: Hindsight Logging toolkit for Model Training."
+    img: /assets/images/projects/flor.png
+    website: https://github.com/ucbrise/flor/
+    displayorder: 1
   - name: Test
     desc: test
     img: /assets/images/projects/helena.png
-    displayorder: 0
+    displayorder: 2
   - name: Test
     desc: test
     img: /assets/images/projects/helena.png
-    displayorder: 0
+    displayorder: 3
 
 
 

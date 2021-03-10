@@ -868,12 +868,12 @@ a > .project:hover{
 }
 
 #reading-group td:first-child {
-  width: 75px;
+  width: 60px;
   text-align: center;
 }
 
 #reading-group td:nth-child(2) {
-  width: 125px;
+  width: 75px;
   text-align: center;
 }
 
