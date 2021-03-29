@@ -17,12 +17,12 @@ about our own works in progress.
 Date | Leader | Reading/Activity | Extra Links
 ---|---|---|---
 May 11 | TBD | TBD |
-May 4 | TBD | TBD |
-Apr. 27 | Gabriel | [Debug information validation for optimized code](https://dl.acm.org/doi/10.1145/3385412.3386020) |
+May 4 | Gabriel | [Debug information validation for optimized code](https://dl.acm.org/doi/10.1145/3385412.3386020) |
+Apr. 27 | TBD | TBD |
 Apr. 20 | Justin | [REPLica](https://dl.acm.org/doi/doi/10.1145/3372885.3373823) |
-Apr. 13 | TBD | TBD |
+Apr. 13 | Lisa | TBD |
 Apr. 6 | Gabriel | [Feedback-driven semi-supervised synthesis of program transformations](https://dl.acm.org/doi/10.1145/3428287) |
-Mar. 30 | TBD | TBD |
+Mar. 30 | Rolando | [The Data Calculator](https://dl.acm.org/doi/10.1145/3183713.3199671) |
 Mar. 23 | | Spring recess |
 Mar. 16 | Gabriel | [Enabling Data-Driven API Design with Community Usage Data: A Need-Finding Study](https://doi.org/10.1145/3313831.3376382) |
 Mar. 9 | Justin | *WIP:* How statically-typed functional programmers author code |
