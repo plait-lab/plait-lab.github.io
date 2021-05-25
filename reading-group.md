@@ -16,7 +16,6 @@ about our own works in progress.
 
 Date | Leader | Reading/Activity | Extra Links
 ---|---|---|---
-May 11 | TBD | TBD |
 May 4 | Rolando | [Pin](https://dl.acm.org/doi/10.1145/1065010.1065034) |
 Apr. 27 | Gabriel | [Debug information validation for optimized code](https://dl.acm.org/doi/10.1145/3385412.3386020) |
 Apr. 20 | Justin | [REPLica](https://dl.acm.org/doi/doi/10.1145/3372885.3373823) |
