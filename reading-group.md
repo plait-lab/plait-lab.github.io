@@ -49,7 +49,7 @@ Apr. 13 | Lisa | *WIP:* Brainstorming for MS project |
 Apr. 6 | Gabriel | [Feedback-driven semi-supervised synthesis of program transformations](https://dl.acm.org/doi/10.1145/3428287) |
 Mar. 30 | Rolando | [The Data Calculator](https://dl.acm.org/doi/10.1145/3183713.3199671) |
 Mar. 23 | | Spring recess |
-Mar. 16 | Gabriel | [Enabling Data-Driven API Design with Community Usage Data](https://doi.org/10.1145/3313831.3376382) |
+Mar. 16 | Gabriel | [Enabling data-driven API design with community usage data](https://doi.org/10.1145/3313831.3376382) |
 Mar. 9 | Justin | *WIP:* How statically-typed functional programmers author code |
 Mar. 2 | Lisa | [Engineering the software for understanding climate change](https://ieeexplore.ieee.org/document/5337646) | [Video presentation](https://www.microsoft.com/en-us/research/video/engineering-the-software-for-understanding-climate-change/)
 Feb. 23 | Sarah | [Formalizing visualization design knowledge as constraints](https://ieeexplore.ieee.org/document/8440847) | [Project page](https://uwdata.github.io/draco/)
