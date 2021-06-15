@@ -33,7 +33,7 @@ Jul. 13 | TBD | TBD |
 Jul. 6 | Justin | *PLP:* TBD |
 Jun. 29 | Rolando | TBD |
 Jun. 22 | Gabriel | *PLP:* TBD |
-Jun. 15 | Sarah | *E:* (1) [Increased Structure and Active Learning Reduce the Achievement Gap in Introductory Biology](https://science.sciencemag.org/content/332/6034/1213.full) + (2) [Halving Fail Rates using Peer Instruction](https://dl.acm.org/doi/abs/10.1145/2445196.2445250) |
+Jun. 15 | Sarah | *E:* (1) [Increased structure and active learning reduce the achievement gap in introductory biology](https://science.sciencemag.org/content/332/6034/1213.full) + (2) [Halving fail rates using peer instruction](https://dl.acm.org/doi/abs/10.1145/2445196.2445250) | [Active learning increases student performance in science, engineering, and mathematics](https://www.pnas.org/node/162430.full)
 Jun. 8 | Justin | *PLP:* [Hints on programming-language design](http://flint.cs.yale.edu/cs428/doc/HintsPL.pdf) |
 Jun. 1 |  | *Extended Memorial Day weekend* |
 May 25 | Sarah | Summer planning |
