@@ -12,6 +12,32 @@ The PLAIT Lab Reading Group is a casual meeting that we have once a week,
 ideally over lunch. We usually either discuss a recently published paper or talk
 about our own works in progress.
 
+### Summer 2021
+
+During this term, we focused on two types of readings we don't usually discuss
+in the reading group:
+
+1. **<u>P</u>**rogramming **<u>L</u>**anguages **<u>P</u>**relim
+   readings from the UC Berkeley list of recommended readings to prepare for the
+   PhD preliminary examination in programming languages
+1. **<u>E</u>**ducation readings
+
+Date | Leader | Reading/Activity | Extra Links
+---|---|---|---
+Aug. 17 | PLAIT Lab Undergrads | Present own work |
+Aug. 10 | TBD | TBD |
+Aug. 3 | Justin | *PLP:* TBD |
+Jul. 27 | Sarah | *E:* TBD |
+Jul. 20 | Gabriel | *PLP:* TBD |
+Jul. 13 | TBD | TBD |
+Jul. 6 | Justin | *PLP:* TBD |
+Jun. 29 | Rolando | TBD |
+Jun. 22 | Gabriel | *PLP:* TBD |
+Jun. 15 | Sarah | *E:* (1) [Increased Structure and Active Learning Reduce the Achievement Gap in Introductory Biology](https://science.sciencemag.org/content/332/6034/1213.full) + (2) [Halving Fail Rates using Peer Instruction](https://dl.acm.org/doi/abs/10.1145/2445196.2445250) |
+Jun. 8 | Justin | *PLP:* [Hints on programming-language design](http://flint.cs.yale.edu/cs428/doc/HintsPL.pdf) |
+Jun. 1 |  | *Extended Memorial Day weekend* |
+May 25 | Sarah | Summer planning |
+
 ### Spring 2021
 
 Date | Leader | Reading/Activity | Extra Links
