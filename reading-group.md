@@ -24,7 +24,7 @@ in the reading group:
 
 Date | Leader | Reading/Activity | Extra Links
 ---|---|---|---
-Aug. 17 | PLAIT Lab Undergrads | Present own work |
+Aug. 17 | PLAIT Lab Undergrads | Present work |
 Aug. 10 | TBD | TBD |
 Aug. 3 | Justin | *PLP:* TBD |
 Jul. 27 | Sarah | *E:* [Teaching to and through cultural diversity](https://www.tandfonline.com/doi/full/10.1111/curi.12002) |
