@@ -27,10 +27,10 @@ Date | Leader | Reading/Activity | Extra Links
 Aug. 17 | PLAIT Lab Undergrads | Present own work |
 Aug. 10 | TBD | TBD |
 Aug. 3 | Justin | *PLP:* TBD |
-Jul. 27 | Sarah | *E:* [Teaching To and Through Cultural Diversity](https://www.tandfonline.com/doi/full/10.1111/curi.12002) |
+Jul. 27 | Sarah | *E:* [Teaching to and through cultural diversity](https://www.tandfonline.com/doi/full/10.1111/curi.12002) |
 Jul. 20 | Gabriel | *PLP:* TBD |
 Jul. 13 | Rolando | TBD |
-Jul. 6 | Parker | [Engineering the Servo Web Browser Engine Using Rust](https://ieeexplore.ieee.org/document/7883291) |
+Jul. 6 | Parker | [Engineering the Servo web browser engine using Rust](https://ieeexplore.ieee.org/document/7883291) |
 Jun. 29 | Justin | *PLP:* [Algorithm = Logic + Control](https://dl.acm.org/doi/10.1145/359131.359136) |
 Jun. 22 | Gabriel | *PLP:* TBD |
 Jun. 15 | Sarah | *E:* (1) [Increased structure and active learning reduce the achievement gap in introductory biology](https://science.sciencemag.org/content/332/6034/1213.full) + (2) [Halving fail rates using peer instruction](https://dl.acm.org/doi/abs/10.1145/2445196.2445250) | [Active learning increases student performance in science, engineering, and mathematics](https://www.pnas.org/node/162430.full)
