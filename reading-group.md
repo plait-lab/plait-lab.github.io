@@ -24,12 +24,13 @@ in the reading group:
 
 Date | Leader | Reading/Activity | Extra Links
 ---|---|---|---
+Aug. 24 | TBD | TBD |
 Aug. 17 | PLAIT Lab Undergrads | Present work |
 Aug. 10 | TBD | TBD |
-Aug. 3 | Justin | *PLP:* TBD |
+Aug. 3 | Justin | *PLP:* [Programming parallel algorithms](https://dl.acm.org/doi/10.1145/227234.227246) |
 Jul. 27 | Sarah | *E:* [Teaching to and through cultural diversity](https://www.tandfonline.com/doi/full/10.1111/curi.12002) |
-Jul. 20 | Gabriel | *PLP:* TBD |
-Jul. 13 | Rolando | TBD |
+Jul. 20 | Gabriel | *E:* [ChocoPy](https://dl.acm.org/doi/10.1145/3358711.3361627) |
+Jul. 13 | Rolando | Dynamic dependency analysis of ordinary programs](https://minds.wisconsin.edu/bitstream/handle/1793/9190/file_1.pdf) |
 Jul. 6 | Parker | [Engineering the Servo web browser engine using Rust](https://ieeexplore.ieee.org/document/7883291) |
 Jun. 29 | Justin | *PLP:* [Algorithm = Logic + Control](https://dl.acm.org/doi/10.1145/359131.359136) |
 Jun. 22 | Gabriel | *PLP:* [Mirrors](https://dl.acm.org/doi/10.1145/1035292.1029004) |
