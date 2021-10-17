@@ -52,25 +52,25 @@ people:
   - first: Justin
     last: Lubin
     website: https://jlubin.net/
-    role: PhD Student
+    role: Ph.D. Student
     roleindex: 1
     img: /assets/images/headshots/jlubin.jpg
   - first: Gabriel
     last: Matute
     website: https://about.gmatute.dev/
-    role: PhD Student
+    role: Ph.D. Student
     roleindex: 1
     img: /assets/images/headshots/gmatute.jpg
   - first: Lisa
     last: Rennels
     website: https://www.lisarennels.com/
-    role: Energy & Resources Group PhD Student, EECS MSc
+    role: Energy & Resources Group Ph.D. Student, EECS M.Sc.
     roleindex: 2
     img: /assets/images/headshots/lrennels.jpeg
   - first: Rolando
     last: Garcia
     website: https://rlnsanz.github.io
-    role: PhD Student
+    role: Ph.D. Student
     roleindex: 1
     img: /assets/images/headshots/rogarcia.jpeg
   - first: Rajavi
@@ -78,6 +78,29 @@ people:
     role: Undergraduate Student
     roleindex: 3
     img: /assets/images/headshots/rmishra.jpg
+  - first: Slim "Sarah"
+    last: Lim
+    website: https://slim.computer/
+    role: Ph.D. Student
+    roleindex: 1
+    img: /assets/images/headshots/slim.jpeg
+  - first: Hellina Hailu
+    last: Nigatu
+    website: https://www.linkedin.com/in/hellina-hailu-nigatu-5b382816a/
+    role: Ph.D. Student
+    roleindex: 1
+    img: /assets/images/headshots/hnigatu.jpeg
+  - first: Parker
+    last: Ziegler
+    website: https://parkerziegler.com/
+    role: Ph.D. Student
+    roleindex: 1
+    img: /assets/images/headshots/pziegler.png
+  - first: Dhanya
+    last: Jayagopal
+    role: M.Sc. Student
+    roleindex: 3
+    img: /assets/images/headshots/djayagopal.jpeg
 
 projects:
   - name: Helena
