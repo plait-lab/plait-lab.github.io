@@ -101,6 +101,12 @@ people:
     role: M.Sc. Student
     roleindex: 3
     img: /assets/images/headshots/djayagopal.jpeg
+ – first: Rebecca
+    last: Hicke
+    website: https://rmatouschekh.github.io
+    role: Undergraduate Student
+    roleindex: 3
+    img: /assets/images/headshots/rhicke.jpg
 
 projects:
   - name: Helena
