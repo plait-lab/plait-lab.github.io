@@ -14,7 +14,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }} | PLAIT Lab {% else %}{{ site.title | escape }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | escape }} | PLAIT Lab {% else %}{{ PLAIT Lab | escape }}{% endif %}</title>
 
   <meta name="description" content="{{ page.summary | default: page.excerpt | default: site.descriptionshort | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
