@@ -119,9 +119,9 @@ projects:
     img: /assets/images/projects/flor.png
     website: https://github.com/ucbrise/flor/
     displayorder: 3
-  - name: "Statically-Typed Functional Program Authorship"
-    desc: A grounded theory of how statically-typed functional programmers write code, covering domain modeling, type construction, focusing techniques, exploratory strategies, mental models, and expressions of intent.
-    img: /assets/images/projects/twitch.png
+  - name: "How Statically-Typed Functional Programmers Write Code"
+    desc: A grounded theory of how statically-typed functional programmers write code, covering domain modeling, type construction, focusing techniques, exploratory strategies, mental models, and expressions of intent. Ongoing work: collecting programmers&rsquo; fine-grained edit histories and developing analyses to parse and understand their behaviors over time.
+    img: /assets/images/projects/stfp.png
     displayorder: 1
   - name: ""
     desc: Program transformation tools for easing the library upgrade process.  Automatic upgrade for breaking changes.
