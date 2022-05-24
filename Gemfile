@@ -28,4 +28,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "addressable", ">= 2.8.0"
 gem "rexml", ">= 3.2.5"
 gem "kramdown", ">= 2.3.1"
-
+gem "webrick"

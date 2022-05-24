@@ -828,7 +828,7 @@ a > .project:hover{
     width: 100%;
     padding-bottom : 50%;
     margin-bottom:4%;
-    background-position:top left;
+    background-position:center left;
     background-repeat:no-repeat;
     background-size:cover;
     border: 1px #eeeeee solid;
