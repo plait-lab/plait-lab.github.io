@@ -27,7 +27,7 @@ descriptionlong: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://plait-lab.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: PLAITlab
-github_username:  plait-lab
+github_username: plait-lab
 title_image: /assets/images/plaitlab.png
 
 # Build settings
@@ -38,7 +38,7 @@ plugins:
 
 themes:
   - title: PL for Social Good
-    description: We invent usable programming tools to help teams working for social good&#8212;social scientists, journalists, lawyers, domain experts focused on marginalized groups.  (Working for social good and struggling to write code or process data?  Get in touch!) 
+    description: We invent usable programming tools to help teams working for social good&#8212;social scientists, journalists, lawyers, domain experts focused on marginalized groups.  (Working for social good and struggling to write code or process data?  Get in touch!)
   - title: PL + HCI
     description: We combine techniques from Programming Languages and Human-Computer Interaction to make programming languages and programming tools that work better for coders and non-coders alike.
 
@@ -113,12 +113,12 @@ projects:
     desc: Programming-by-demonstration tool for automating repetitive interactions with webpages.  Designed for non-programmers from the social sciences.
     img: /assets/images/projects/helena.png
     website: http://helena-lang.org/
-    displayorder: 4
+    displayorder: 5
   - name: FLOR
     desc: "Fast Low-Overhead Recovery: Hindsight logging toolkit for model training."
     img: /assets/images/projects/flor.png
     website: https://github.com/ucbrise/flor/
-    displayorder: 3
+    displayorder: 4
   - name: "How Statically-Typed Functional Programmers Write Code"
     desc: "A grounded theory of how statically-typed functional programmers write code, covering domain modeling, type construction, focusing techniques, exploratory strategies, mental models, and expressions of intent. Ongoing work: collecting programmers&rsquo; fine-grained edit histories and developing analyses to parse and understand their behaviors over time."
     img: /assets/images/projects/stfp.png
@@ -128,8 +128,10 @@ projects:
     desc: Program transformation tools for easing the library upgrade process.  Automatic upgrade for breaking changes.
     img: /assets/images/projects/programtransform.png
     displayorder: 2
-
-
+  - name: "A Cross-Domain Need-Finding Study with Users of Geospatial Data"
+    desc: "A contextual inquiry exploring the challenges users face in gathering, analyzing, and visualizing geospatial data, drawing on participants from Earth and climate science, the social sciences, and data journalism."
+    img: /assets/images/projects/need-finding-geospatial-data.png
+    displayorder: 3
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
