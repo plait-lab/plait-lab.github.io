@@ -747,8 +747,14 @@ ul.share-buttons .sr-only{
 }
 
 .big{
-  font-size: 112px;
+  font-size: 66px;
   line-height: 1em;
+}
+
+@media (min-width:768px) {
+	.big {
+		font-size: 112px;
+	}
 }
 
 .extra-big{
@@ -776,8 +782,20 @@ ul.share-buttons .sr-only{
 
 .people{
 	display: grid;
-	grid-template-columns: 24% 24% 24% 24%;
+	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 20px;
+}
+
+@media (min-width: 768px) {
+	.people {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (min-width: 1024px) {
+	.people {
+		grid-template-columns: repeat(4, 1fr);
+	}
 }
 
 .person{
@@ -804,8 +822,14 @@ ul.share-buttons .sr-only{
 
 .projects{
 	display: grid;
-	grid-template-columns: 48% 48%;
+	grid-template-columns: repeat(1, 1fr);
 	grid-gap: 60px;
+}
+
+@media (min-width: 768px) {
+	.projects {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 a > .person:hover{
