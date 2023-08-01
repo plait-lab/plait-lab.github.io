@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Utilities */
+@layer utilities {
+  /* Block Stack */
+  .stack {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stack > * {
+    margin-block: 0;
+  }
+
+  .stack-reset > * + * {
+    margin-block-start: 0;
+  }
+
+  .stack-xs > * + * {
+    margin-block-start: 0.5rem;
+  }
+
+  .stack-sm > * + * {
+    margin-block-start: 1rem;
+  }
+
+  .stack-md > * + * {
+    margin-block-start: 1.5rem;
+  }
+
+  .stack-lg > * + * {
+    margin-block-start: 2rem;
+  }
+
+  .stack-xl > * + * {
+    margin-block-start: 3rem;
+  }
+
+  /* Inline Stack */
+  .stack-h {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .stack-h-reset > * + * {
+    margin-block-start: 0;
+  }
+
+  .stack-h > * {
+    margin-inline: 0;
+  }
+
+  .stack-h-xs > * + * {
+    margin-inline-start: 0.5rem;
+  }
+
+  .stack-h-sm > * + * {
+    margin-inline-start: 1rem;
+  }
+
+  .stack-h-md > * + * {
+    margin-inline-start: 1.5rem;
+  }
+
+  .stack-h-lg > * + * {
+    margin-inline-start: 2rem;
+  }
+
+  .stack-h-xl > * + * {
+    margin-block-start: 3rem;
+  }
+
+  .fade-edge-r {
+    mask-image: linear-gradient(
+      to right,
+      black calc(100% - 36px),
+      transparent 100%
+    );
+  }
+
+  .fade-edge-l {
+    mask-image: linear-gradient(
+      to left,
+      black calc(100% - 36px),
+      transparent 100%
+    );
+  }
+
+  .fade-edges {
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 36px,
+      black calc(100% - 36px),
+      transparent 100%
+    );
+  }
+
+  @keyframes pulse {
+    from {
+      stroke-width: 0.5rem;
+      stroke-opacity: 1;
+      transform: scale(0.3);
+    }
+
+    to {
+      stroke-width: 0;
+      stroke-opacity: 0;
+      transform: scale(3);
+    }
+  }
+
+  .pulse {
+    fill-opacity: 0;
+    animation-duration: 2s;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    animation-delay: 500ms;
+  }
+}
+
+@layer components {
+  .timeline {
+    @apply bg-left-top;
+    background-size: 0.25rem 0.25rem;
+    background-image: radial-gradient(
+      theme("colors.primary") 25%,
+      transparent 25%
+    );
+  }
+
+  .trigger[data-state="active"] {
+    @apply border-b border-b-primary font-semibold;
+  }
+}
