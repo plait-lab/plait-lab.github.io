@@ -37,20 +37,17 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: build
-          path: ./out
       - name: Add .nojekyll
-        run: cd ./out && touch .nojekyll && cd ../
+        run: touch .nojekyll
       - name: Add CNAME
-        run: cd ./out && echo "plait-lab.org" > CNAME && cd ../
+        run: echo "plait-lab.org" > CNAME
       - name: Push to GitHub Pages
         env:
           CI_COMMIT_MESSAGE: "plait-lab.org CI Build Artifacts"
           CI_COMMIT_AUTHOR: "plait-lab.org CI"
         run: |
-          cd ./out
           git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
           git config --global user.email "plait-lab@googlegroups.com"
           git add .
           git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
           git push
-          cd ../
