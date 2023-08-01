@@ -44,8 +44,9 @@ jobs:
           CI_COMMIT_MESSAGE: "plait-lab.org CI Build Artifacts"
           CI_COMMIT_AUTHOR: "plait-lab.org CI"
         run: |
+          git checkout gh-pages
           git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
           git config --global user.email "plait-lab@googlegroups.com"
           git add .
           git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
-          git push origin gh-pages
+          git push
