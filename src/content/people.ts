@@ -17,6 +17,7 @@ import HPerlstein from "@/../public/headshots/hperlstein.jpeg";
 import ADemirci from "@/../public/headshots/ademirci.jpeg";
 import SKim from "@/../public/headshots/skim.jpg";
 import LRojas from "@/../public/headshots/lrojas.png";
+import DCao from "@/../public/headshots/dcao.jpg";
 
 export interface Person {
   id: string;
@@ -82,6 +83,13 @@ export const PEOPLE = [
     role: "Ph.D. Student",
     headshot: PZiegler,
     website: "https://parkerziegler.com/",
+  },
+  {
+    id: "dcao",
+    name: "David Minh-Duy Cao",
+    role: "Ph.D. Student",
+    headshot: DCao,
+    website: "https://cao.sh",
   },
   {
     id: "djayagopal",
