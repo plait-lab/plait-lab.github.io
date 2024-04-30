@@ -8,6 +8,8 @@ import Helena from "@/../public/projects/helena.png";
 import QuickPose from "@/../public/projects/quickpose.jpg";
 import DOT from "@/../public/projects/dot.png";
 import EntityExtraction from "@/../public/projects/entity-extraction.jpeg";
+import EquivalenceByCanonicalization from "@/../public/projects/equivalence-by-canonicalization.png";
+import LearnabilityProgramSynthesizers from "@/../public/publications/learnability-program-synthesizers.png";
 
 export interface Project {
   title: string;
@@ -59,6 +61,26 @@ export const PROJECTS: Project[] = [
     },
   },
   {
+    title: "Equivalence by Canonicalization for Synthesis-Backed Refactoring",
+    description:
+      "A novel program equivalence check used for synthesizing compositions of library components equivalent to user-provided code. Refactors thousands of real-world programs!",
+    image: {
+      src: EquivalenceByCanonicalization,
+      alt: "Equivalence by Canonicalization for Synthesis-Backed Refactoring",
+    },
+    href: "https://github.com/justinlubin/cobbler",
+  },
+  {
+    title: "Exploring the Learnability of Program Synthesizers by Novice Programmers",
+    description:
+      "A thematic analysis on the first-use usability of program synthesizers by novice programmers.",
+    image: {
+      src: LearnabilityProgramSynthesizers,
+      alt: "Exploring the Learnability of Program Synthesizers by Novice Programmers",
+    },
+    href: "https://dl.acm.org/doi/10.1145/3526113.3545659",
+  },
+  {
     title: "FLOR: Fast Low-Overhead Recovery",
     description: "A hindsight logging toolkit for model training.",
     image: {
@@ -80,7 +102,7 @@ export const PROJECTS: Project[] = [
   {
     title: "How Statically-Typed Functional Programmers Write Code",
     description:
-      "A grounded theory of how statically-typed functional programmers write code, covering domain modeling, type construction, focusing techniques, exploratory strategies, mental models, and expressions of intent. Ongoing work: collecting programmers’ fine-grained edit histories and developing analyses to parse and understand their behaviors over time.",
+      "A grounded theory (and experimental validation) of how statically-typed functional programmers write code, covering domain modeling, type construction, focusing techniques, exploratory strategies, mental models, and expressions of intent.",
     image: {
       src: STFP,
       alt: "How Statically-Typed Functional Programmers Write Code",

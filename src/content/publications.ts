@@ -11,10 +11,12 @@ import STFP from "@/../public/publications/stfp.png";
 import PLHCI from "@/../public/publications/pl-hci.png";
 import IncidentalSpecs from "@/../public/publications/incidental-specs.png";
 import ChangeSoftwareEcosystems from "@/../public/publications/change-software-ecosystems.png";
+import EquivalenceByCanonicalization from "@/../public/projects/equivalence-by-canonicalization.png";
 
 interface PublicationAttributes {
   title: string;
   authors: string[];
+  equalContribution?: bool;
   hero: StaticImageData;
   date: Date;
 }
@@ -57,6 +59,27 @@ export type Publication =
   | WorkshopPublication;
 
 export const PUBLICATIONS: Publication[] = [
+  {
+    kind: PublicationKind.Journal,
+    title:
+      "Equivalence by Canonicalization for Synthesis-Backed Refactoring",
+    authors: [
+      "Justin Lubin",
+      "Jeremy Ferguson*",
+      "Kevin Ye*",
+      "Jacob Yim*",
+      "Sarah E. Chasins",
+    ],
+    equalContribution: true,
+    journal: {
+      name: "Proceedings of the ACM on Programming Languages",
+      volume: "8",
+      issue: "PLDI",
+    },
+    hero: EquivalenceByCanonicalization,
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3656453",
+    date: new Date("2024-06-24"),
+  },
   {
     kind: PublicationKind.Conference,
     title:
@@ -107,7 +130,8 @@ export const PUBLICATIONS: Publication[] = [
     kind: PublicationKind.Conference,
     title:
       "Exploring the Learnability of Program Synthesizers by Novice Programmers",
-    authors: ["Dhayna Jayagopal", "Justin Lubin", "Sarah E. Chasins"],
+    authors: ["Dhayna Jayagopal*", "Justin Lubin*", "Sarah E. Chasins"],
+    equalContribution: true,
     conference: {
       name: "Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology",
       acronym: "UIST",

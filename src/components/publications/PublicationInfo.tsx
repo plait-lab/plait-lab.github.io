@@ -86,9 +86,9 @@ function formatJournalName(
 }
 
 const PublicationInfo: React.FC<Props> = (props) => {
-  const { kind, authors, date } = props;
+  const { kind, authors, equalContribution, date } = props;
 
-  const formattedAuthors = formatAuthors(authors);
+  const formattedAuthors = formatAuthors(authors, equalContribution);
   let venue = "";
 
   switch (kind) {
@@ -110,7 +110,9 @@ const PublicationInfo: React.FC<Props> = (props) => {
 
   return (
     <>
-      <p className="text-sm leading-6">{formattedAuthors}</p>
+      <p className="text-sm leading-6">
+        {formattedAuthors}
+        {equalContribution ? <span className="text-gray-400"> (* equal contribution)</span> : ""}</p>
       <p className="font-serif text-sm italic">{venue}</p>
     </>
   );

@@ -52,7 +52,7 @@ export const PEOPLE = [
   {
     id: "jlubin",
     name: "Justin Lubin",
-    role: "Ph.D. Student",
+    role: "Ph.D. Candidate",
     headshot: JLubin,
     website: "https://jlubin.net",
   },
