@@ -87,7 +87,7 @@ export const PROJECTS: Project[] = [
       alt: "Exploring the Learnability of Program Synthesizers by Novice Programmers",
     },
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3526113.3545659",
-    youtubeUrl: "https://youtu.be/KcBa3l_J3pY",
+    youtubeUrl: "https://www.youtube.com/watch?v=k5e6wOPrGic",
   },
   {
     title: "FLOR: Fast Low-Overhead Recovery",

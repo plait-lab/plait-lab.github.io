@@ -138,7 +138,7 @@ export const PUBLICATIONS: Publication[] = [
     },
     hero: LearnabilityProgramSynthesizers,
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3526113.3545659",
-    youtubeUrl: "https://youtu.be/KcBa3l_J3pY",
+    youtubeUrl: "https://www.youtube.com/watch?v=k5e6wOPrGic",
     date: new Date("2022-10-29"),
   },
   {
