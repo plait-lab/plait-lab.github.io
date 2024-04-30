@@ -88,7 +88,7 @@ function formatJournalName(
 const PublicationInfo: React.FC<Props> = (props) => {
   const { kind, authors, equalContribution, date } = props;
 
-  const formattedAuthors = formatAuthors(authors, equalContribution);
+  const formattedAuthors = formatAuthors(authors);
   let venue = "";
 
   switch (kind) {
