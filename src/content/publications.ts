@@ -16,7 +16,7 @@ import EquivalenceByCanonicalization from "@/../public/projects/equivalence-by-c
 interface PublicationAttributes {
   title: string;
   authors: string[];
-  equalContribution?: bool;
+  equalContribution?: boolean;
   hero: StaticImageData;
   date: Date;
 }
@@ -42,7 +42,7 @@ export interface JournalPublication extends PublicationAttributes {
   journal: {
     name: string;
     volume: number;
-    issue: number;
+    issue: number | string;
   };
   acmDlUrl: string;
 }
@@ -73,7 +73,7 @@ export const PUBLICATIONS: Publication[] = [
     equalContribution: true,
     journal: {
       name: "Proceedings of the ACM on Programming Languages",
-      volume: "8",
+      volume: 8,
       issue: "PLDI",
     },
     hero: EquivalenceByCanonicalization,
