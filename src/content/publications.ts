@@ -242,7 +242,8 @@ export const PUBLICATIONS: Publication[] = [
   {
     kind: PublicationKind.Workshop,
     title: "Searching for Incidental Specifications",
-    authors: ["Jeremy Ferguson", "Kevin Ye", "Jacob Yim", "Justin Lubin"],
+    authors: ["Jeremy Ferguson*", "Kevin Ye*", "Jacob Yim*", "Justin Lubin"],
+    equalContribution: true,
     workshop: "PLATEAU",
     hero: IncidentalSpecs,
     pdfUrl:

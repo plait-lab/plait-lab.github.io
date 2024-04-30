@@ -19,6 +19,9 @@ export interface Project {
     alt: string;
   };
   href?: string;
+  githubUrl?: string;
+  acmDlUrl?: string;
+  youtubeUrl?: string;
 }
 
 export const PROJECTS: Project[] = [
@@ -30,7 +33,8 @@ export const PROJECTS: Project[] = [
       src: NeedFindingGeospatialData,
       alt: "A Need-Finding Study with Users of Geospatial Data",
     },
-    href: "https://dl.acm.org/doi/10.1145/3544548.3581370",
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3544548.3581370",
+    youtubeUrl: "https://youtu.be/ZIZTstW42w0",
   },
   {
     title:
@@ -41,6 +45,9 @@ export const PROJECTS: Project[] = [
       src: DOT,
       alt: "DOT: Building a Document Organization tool for the Criminal Justice Domain",
     },
+    githubUrl: "https://github.com/hhnigatu/DOT",
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3593013.3594093",
+    youtubeUrl: "https://youtu.be/Z_kUfUHswYg",
   },
   {
     title: "Enabling API Upgrades",
@@ -61,24 +68,26 @@ export const PROJECTS: Project[] = [
     },
   },
   {
-    title: "Equivalence by Canonicalization for Synthesis-Backed Refactoring",
+    title: "cobbler: The Component-Based Refactoring Synthesizer",
     description:
-      "A novel program equivalence check used for synthesizing compositions of library components equivalent to user-provided code. Refactors thousands of real-world programs!",
+      "A program synthesizer that synthesizes compositions of library components equivalent to user-provided code using a novel and fast program equivalence check. Refactors thousands of real-world programs!",
     image: {
       src: EquivalenceByCanonicalization,
       alt: "Equivalence by Canonicalization for Synthesis-Backed Refactoring",
     },
-    href: "https://github.com/justinlubin/cobbler",
+    githubUrl: "https://github.com/justinlubin/cobbler",
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3656453",
   },
   {
     title: "Exploring the Learnability of Program Synthesizers by Novice Programmers",
     description:
-      "A thematic analysis on the first-use usability of program synthesizers by novice programmers.",
+      "A thematic analysis on the first-use usability of program synthesizers by novice programmers, including findings on specification modalities, interpreting synthesis outputs, and user behaviors.",
     image: {
       src: LearnabilityProgramSynthesizers,
       alt: "Exploring the Learnability of Program Synthesizers by Novice Programmers",
     },
-    href: "https://dl.acm.org/doi/10.1145/3526113.3545659",
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3526113.3545659",
+    youtubeUrl: "https://youtu.be/KcBa3l_J3pY",
   },
   {
     title: "FLOR: Fast Low-Overhead Recovery",
@@ -87,7 +96,8 @@ export const PROJECTS: Project[] = [
       src: FLOR,
       alt: "FLOR: Fast Low-Overhead Recovery",
     },
-    href: "https://github.com/ucbrise/flor/",
+    githubUrl: "https://github.com/ucbrise/flor/",
+    acmDlUrl: "https://dl.acm.org/doi/10.14778/3436905.3436925",
   },
   {
     title: "Helena",
@@ -98,6 +108,9 @@ export const PROJECTS: Project[] = [
       alt: "Helena",
     },
     href: "http://helena-lang.org/",
+    githubUrl: "https://github.com/schasins/helena",
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3133875",
+    youtubeUrl: "https://www.youtube.com/watch?v=Fy4UBVzOHvU",
   },
   {
     title: "How Statically-Typed Functional Programmers Write Code",
@@ -107,7 +120,8 @@ export const PROJECTS: Project[] = [
       src: STFP,
       alt: "How Statically-Typed Functional Programmers Write Code",
     },
-    href: "https://dl.acm.org/doi/10.1145/3485532",
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3485532",
+    youtubeUrl: "https://youtu.be/2Z3Z3Z3Z3Z3",
   },
   {
     title:
@@ -118,6 +132,9 @@ export const PROJECTS: Project[] = [
       src: QuickPose,
       alt: "Understanding Version Control as Material Interaction with Quickpose",
     },
-    href: "https://dl.acm.org/doi/10.1145/3544548.3581394",
+    href: "https://www.ericrawn.media/quickpose",
+    githubUrl: "https://github.com/erawn/Quickpose",
+    acmDlUrl: "https://dl.acm.org/doi/abs/10.1145/3544548.3581394",
+    youtubeUrl: "https://youtu.be/jTxCNGen8zo",
   },
 ];
