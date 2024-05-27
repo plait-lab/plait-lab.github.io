@@ -2,13 +2,15 @@ import type { StaticImageData } from "next/image";
 
 import STFP from "@/../public/publications/stfp.png";
 import NeedFindingGeospatialData from "@/../public/publications/need-finding-geospatial-data.png";
-import EnablingAPIUpgrades from "@/../public/projects/enabling-api-upgrades.svg";
+import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
 import FLOR from "@/../public/projects/flor.png";
 import Helena from "@/../public/projects/helena.png";
 import QuickPose from "@/../public/projects/quickpose.jpg";
 import DOT from "@/../public/projects/dot.png";
 import EntityExtraction from "@/../public/projects/entity-extraction.jpeg";
 import EquivalenceByCanonicalization from "@/../public/projects/equivalence-by-canonicalization.png";
+import STSearch from "@/../public/projects/stsearch.svg";
+import SimplifyTypes from "@/../public/projects/simplify-types.svg";
 import LearnabilityProgramSynthesizers from "@/../public/publications/learnability-program-synthesizers.png";
 
 export interface Project {
@@ -50,15 +52,6 @@ export const PROJECTS: Project[] = [
     youtubeUrl: "https://youtu.be/Z_kUfUHswYg",
   },
   {
-    title: "Enabling API Upgrades",
-    description:
-      "Program transformation tooling for library developers could enable them to ease the upgrading burden when introducing API breaking changes for their downstream users.",
-    image: {
-      src: EnablingAPIUpgrades,
-      alt: "Enabling API Upgrades",
-    },
-  },
-  {
     title: "Entity Extraction From Police Records",
     description:
       "Program synthesis tool to match documents based on locational similarities.",
@@ -79,6 +72,17 @@ export const PROJECTS: Project[] = [
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3656453",
   },
   {
+    title: "Syntactic Code Search with Sequence-to-Tree Matching",
+    description:
+      "A new lightweight code search query language based on tokenizers and tree automatas to support accurate and incremental syntactic search queries for interactive settings.",
+    image: {
+      src: STSearch,
+      alt: "Syntactic Code Search with Sequence-to-Tree Matching",
+    },
+    githubUrl: "https://github.com/plait-lab/stsearch",
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3656460",
+  },
+  {
     title: "Exploring the Learnability of Program Synthesizers by Novice Programmers",
     description:
       "A thematic analysis on the first-use usability of program synthesizers by novice programmers, including findings on specification modalities, interpreting synthesis outputs, and user behaviors.",
@@ -88,6 +92,27 @@ export const PROJECTS: Project[] = [
     },
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3526113.3545659",
     youtubeUrl: "https://www.youtube.com/watch?v=k5e6wOPrGic",
+  },
+  {
+    title: "Change in Software Ecosystems",
+    description:
+      "An analysis of social challenges to propagate breaking changes in existing software ecosystems to discover opportunities for new techniques to automate upgrades.",
+    image: {
+      src: SoftwareEcosystem,
+      alt: "Change in Software Ecosystems",
+    },
+    href:
+      "https://kilthub.cmu.edu/articles/conference_contribution/Change_in_Software_Ecosystems/19799314?backTo=/collections/PLATEAU_2022/5957631",
+  },
+  {
+    title: "Simplifying Refinement Types",
+    description:
+      "A deterministic syntax-directed algorithm to synthesize simple types that guarantee contraints from a refinement type, including common background theories and an OCaml implementation.",
+    image: {
+      src: SimplifyTypes,
+      alt: "Simplifying Refinement Types",
+    },
+    githubUrl: "https://github.com/plait-lab/simplify-types",
   },
   {
     title: "FLOR: Fast Low-Overhead Recovery",
