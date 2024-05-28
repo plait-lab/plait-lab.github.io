@@ -10,7 +10,7 @@ import DOT from "@/../public/projects/dot.png";
 import EntityExtraction from "@/../public/projects/entity-extraction.jpeg";
 import EquivalenceByCanonicalization from "@/../public/projects/equivalence-by-canonicalization.png";
 import STSearch from "@/../public/projects/stsearch.svg";
-import SimplifyTypes from "@/../public/projects/simplify-types.svg";
+import SimplifyTypes from "@/../public/projects/simplify-types.png";
 import LearnabilityProgramSynthesizers from "@/../public/publications/learnability-program-synthesizers.png";
 
 export interface Project {
@@ -83,7 +83,8 @@ export const PROJECTS: Project[] = [
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3656460",
   },
   {
-    title: "Exploring the Learnability of Program Synthesizers by Novice Programmers",
+    title:
+      "Exploring the Learnability of Program Synthesizers by Novice Programmers",
     description:
       "A thematic analysis on the first-use usability of program synthesizers by novice programmers, including findings on specification modalities, interpreting synthesis outputs, and user behaviors.",
     image: {
@@ -101,8 +102,7 @@ export const PROJECTS: Project[] = [
       src: SoftwareEcosystem,
       alt: "Change in Software Ecosystems",
     },
-    href:
-      "https://kilthub.cmu.edu/articles/conference_contribution/Change_in_Software_Ecosystems/19799314?backTo=/collections/PLATEAU_2022/5957631",
+    href: "https://kilthub.cmu.edu/articles/conference_contribution/Change_in_Software_Ecosystems/19799314?backTo=/collections/PLATEAU_2022/5957631",
   },
   {
     title: "Simplifying Refinement Types",
