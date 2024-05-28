@@ -18,6 +18,7 @@ import ADemirci from "@/../public/headshots/ademirci.jpeg";
 import SKim from "@/../public/headshots/skim.jpg";
 import LRojas from "@/../public/headshots/lrojas.png";
 import DCao from "@/../public/headshots/dcao.jpg";
+import SKanosue from "@/../public/headshots/skanosue.jpg";
 
 export interface Person {
   id: string;
@@ -102,6 +103,13 @@ export const PEOPLE = [
     name: "Jacob Yim",
     role: "M.Sc. Student",
     headshot: JYim,
+  },
+  {
+    id: "skanosue",
+    name: "Sora Kanosue",
+    role: "M.Sc. Student",
+    headshot: SKanosue,
+    website: "https://skanosue.com",
   },
   {
     id: "lrennels",
