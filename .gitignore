@@ -6,3 +6,6 @@ node_modules
 
 # tsconfig
 tsconfig.tsbuildinfo
+
+# System
+.DS_Store

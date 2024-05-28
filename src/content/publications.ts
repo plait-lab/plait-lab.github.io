@@ -10,8 +10,9 @@ import OpenKnowledgeNetwork from "@/../public/publications/open-knowledge-networ
 import STFP from "@/../public/publications/stfp.png";
 import PLHCI from "@/../public/publications/pl-hci.png";
 import IncidentalSpecs from "@/../public/publications/incidental-specs.png";
-import ChangeSoftwareEcosystems from "@/../public/publications/change-software-ecosystems.png";
+import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
 import EquivalenceByCanonicalization from "@/../public/projects/equivalence-by-canonicalization.png";
+import STSearch from "@/../public/projects/stsearch.svg";
 
 interface PublicationAttributes {
   title: string;
@@ -78,6 +79,26 @@ export const PUBLICATIONS: Publication[] = [
     },
     hero: EquivalenceByCanonicalization,
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3656453",
+    date: new Date("2024-06-24"),
+  },
+  {
+    kind: PublicationKind.Journal,
+    title:
+      "Syntactic Code Search with Sequence-to-Tree Matching",
+    authors: [
+      "Gabriel Matute",
+      "Wode Ni",
+      "Titus Barik",
+      "Alvin Cheung",
+      "Sarah E. Chasins",
+    ],
+    journal: {
+      name: "Proceedings of the ACM on Programming Languages",
+      volume: 8,
+      issue: "PLDI",
+    },
+    hero: STSearch,
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3656460",
     date: new Date("2024-06-24"),
   },
   {
@@ -256,7 +277,7 @@ export const PUBLICATIONS: Publication[] = [
     title: "Change in Software Ecosystems",
     authors: ["Gabriel Matute", "Alvin Cheung", "Sarah E. Chasins"],
     workshop: "PLATEAU",
-    hero: ChangeSoftwareEcosystems,
+    hero: SoftwareEcosystem,
     pdfUrl:
       "https://kilthub.cmu.edu/articles/conference_contribution/Change_in_Software_Ecosystems/19799314?backTo=/collections/PLATEAU_2022/5957631",
     date: new Date("2021-11-09"),
