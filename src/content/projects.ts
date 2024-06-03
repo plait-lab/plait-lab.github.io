@@ -12,6 +12,7 @@ import EquivalenceByCanonicalization from "@/../public/projects/equivalence-by-c
 import STSearch from "@/../public/projects/stsearch.svg";
 import SimplifyTypes from "@/../public/projects/simplify-types.png";
 import LearnabilityProgramSynthesizers from "@/../public/publications/learnability-program-synthesizers.png";
+import LRLWiki from "@/../public/publications/lrl_comparison.png";
 
 export interface Project {
   title: string;
