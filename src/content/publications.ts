@@ -13,6 +13,8 @@ import IncidentalSpecs from "@/../public/publications/incidental-specs.png";
 import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
 import EquivalenceByCanonicalization from "@/../public/projects/equivalence-by-canonicalization.png";
 import STSearch from "@/../public/projects/stsearch.svg";
+import LRLWiki from "@/../public/publications/lrl_comparison.png";
+
 
 interface PublicationAttributes {
   title: string;
@@ -100,6 +102,42 @@ export const PUBLICATIONS: Publication[] = [
     hero: STSearch,
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3656460",
     date: new Date("2024-06-24"),
+  },
+  {
+    kind: PublicationKind.Conference,
+    title:
+      "Low-resourced Languages and Online Knowledge Repositories: A Need-Finding Study",
+    authors: [
+      "Hellina Hailu Nigatu",
+      "John Canny",
+      "Sarah E. Chasins",
+    ],
+    conference: {
+      name: "Proceedings of the 2024 ACM Conference on Human Factors in Computing Systems",
+      acronym: "CHI",
+    },
+    hero: LRLWiki,
+    acmDlUrl: "https://doi.org/10.1145/3613904.3642605",
+    youtubeUrl: "https://www.youtube.com/watch?v=aJ8BIo2O4mY",
+    date: new Date("2024-05-11"),
+  },
+   {
+    kind: PublicationKind.Conference,
+    title:
+      "A Need Finding Study with Low-Resourced Language Content Creators",
+    authors: [
+      "Hellina Hailu Nigatu",
+      "John Canny",
+      "Sarah E. Chasins",
+    ],
+    conference: {
+      name: "Proceedings of the 4th ACM African Human Computer Interaction Conference",
+      acronym: "AfriCHI",
+    },
+    // hero: CoDesignTransparency,
+    acmDlUrl: "https://doi.org/10.1145/3628096.3628738",
+    // youtubeUrl: "https://youtu.be/Z_kUfUHswYg",
+    date: new Date("2023-11-27"),
   },
   {
     kind: PublicationKind.Conference,
