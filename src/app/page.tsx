@@ -19,7 +19,7 @@ const Index = () => {
       </h1>
       <section className="stack stack-xs p-4">
         <p className="text-center tracking-wider">
-          Programming Languages for Accessible and Inclusive Tools
+          Programming Languages for Approachable and Inclusive Tools
         </p>
         <div className="stack-h stack-h-xs items-center justify-center">
           <p className="text-center tracking-wider">@ UC Berkeley EECS</p>
