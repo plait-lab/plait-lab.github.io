@@ -54,23 +54,19 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <section className="stack stack-xs relative p-4">
-        <Heading level="h2">News</Heading>
-        <News news={NEWS} />
+      <section className="stack stack-xs p-4">
+        <Heading level="h2">Projects</Heading>
+        <div className="grid grid-cols-12 gap-y-20 md:gap-12">
+          {PROJECTS.map((project) => {
+            return <Project key={project.title} {...project} />;
+          })}
+        </div>
       </section>
       <section className="stack stack-xs p-4">
         <Heading level="h2">People</Heading>
         <div className="grid grid-cols-12 gap-5">
           {PEOPLE.map((person) => {
             return <LabMember key={person.id} {...person} />;
-          })}
-        </div>
-      </section>
-      <section className="stack stack-xs p-4">
-        <Heading level="h2">Projects</Heading>
-        <div className="grid grid-cols-12 gap-y-20 md:gap-12">
-          {PROJECTS.map((project) => {
-            return <Project key={project.title} {...project} />;
           })}
         </div>
       </section>
