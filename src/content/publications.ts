@@ -134,7 +134,7 @@ export const PUBLICATIONS: Publication[] = [
       name: "Proceedings of the 4th ACM African Human Computer Interaction Conference",
       acronym: "AfriCHI",
     },
-    // hero: CoDesignTransparency,
+    hero: CoDesignTransparency,
     acmDlUrl: "https://doi.org/10.1145/3628096.3628738",
     // youtubeUrl: "https://youtu.be/Z_kUfUHswYg",
     date: new Date("2023-11-27"),

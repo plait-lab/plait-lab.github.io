@@ -39,7 +39,7 @@ export const PROJECTS: Project[] = [
     acmDlUrl: "https://doi.org/10.1145/3613904.3642605",
     youtubeUrl: "https://www.youtube.com/watch?v=aJ8BIo2O4mY",
   },
-      
+  {
     title: "A Need-Finding Study with Users of Geospatial Data",
     description:
       "A contextual inquiry study exploring the challenges users face in finding, transforming, analyzing, and visualizing geospatial data, drawing on participants from Earth and climate science, the social sciences, and data journalism.",
