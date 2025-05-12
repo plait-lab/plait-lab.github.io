@@ -78,7 +78,7 @@ export const PUBLICATIONS: Publication[] = [
       issue: "PLDI",
     },
     hero: PBN,
-    acmDlUrl: "https://doi.org/10.1145/3729264",
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3729264",
     date: new Date("2025-06-01"),
   },
   {
