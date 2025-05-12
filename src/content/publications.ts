@@ -12,6 +12,7 @@ import PLHCI from "@/../public/publications/pl-hci.png";
 import IncidentalSpecs from "@/../public/publications/incidental-specs.png";
 import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
 import EquivalenceByCanonicalization from "@/../public/projects/equivalence-by-canonicalization.png";
+import PBN from "@/../public/projects/PBN.png";
 import STSearch from "@/../public/projects/stsearch.svg";
 import LRLWiki from "@/../public/publications/lrl_comparison.png";
 
@@ -62,6 +63,24 @@ export type Publication =
   | WorkshopPublication;
 
 export const PUBLICATIONS: Publication[] = [
+  {
+    kind: PublicationKind.Journal,
+    title:
+      "Programming by Navigation",
+    authors: [
+      "Justin Lubin",
+      "Parker Ziegler",
+      "Sarah E. Chasins",
+    ],
+    journal: {
+      name: "Proceedings of the ACM on Programming Languages",
+      volume: 9,
+      issue: "PLDI",
+    },
+    hero: PBN,
+    acmDlUrl: "https://doi.org/10.1145/3729264",
+    date: new Date("2025-06-01"),
+  },
   {
     kind: PublicationKind.Journal,
     title:

@@ -8,4 +8,4 @@ node_modules
 tsconfig.tsbuildinfo
 
 # System
-.DS_Store
+**/.DS_Store

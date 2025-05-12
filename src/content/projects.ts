@@ -14,6 +14,7 @@ import STSearch from "@/../public/projects/stsearch.svg";
 import SimplifyTypes from "@/../public/projects/simplify-types.png";
 import LearnabilityProgramSynthesizers from "@/../public/publications/learnability-program-synthesizers.png";
 import LRLWiki from "@/../public/publications/lrl_comparison.png";
+import PBN from "@/../public/projects/PBN.png";
 
 export interface Project {
   title: string;
@@ -29,6 +30,17 @@ export interface Project {
 }
 
 export const PROJECTS: Project[] = [
+  {
+    title: "Programming by Navigation",
+    description:
+      "A new interactive program synthesis paradigm to empower domain experts outside computer science to write the code they need.",
+    image: {
+      src: PBN,
+      alt: "Programming by Navigation",
+    },
+    acmDlUrl: "https://doi.org/10.1145/3729264",
+    githubUrl: "https://github.com/justinlubin/honeybee",
+  },
   {
     title: "Low-Resourced Languages and Online Knowledge Repositories: A Need-Finding Study",
     description:
