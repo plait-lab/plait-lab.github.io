@@ -2,6 +2,7 @@ import type { StaticImageData } from "next/image";
 
 import STFP from "@/../public/publications/stfp.png";
 import NeedFindingGeospatialData from "@/../public/publications/need-finding-geospatial-data.png";
+import Marshall from "@/../public/projects/marshall.png";
 import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
 import FLOR from "@/../public/projects/flor.png";
 import Helena from "@/../public/projects/helena.png";
@@ -64,12 +65,21 @@ export const PROJECTS: Project[] = [
     youtubeUrl: "https://youtu.be/Z_kUfUHswYg",
   },
   {
-    title: "Entity Extraction From Police Records",
+    title: "Marshall: Extracting Structured Data from Templated Documents",
     description:
-      "Program synthesis tool to match documents based on locational similarities.",
+      "An instantiation of the Program Sketches with Scorer Holes synthesis framework that extracts structured information from templated PDFs.",
     image: {
       src: EntityExtraction,
       alt: "Entity Extraction From Police Records",
+    },
+  },
+  {
+    title: "Program Sketches with Scorer Holes",
+    description:
+      "A sketch-based program synthesizer that fills sketch holes with scorer programs. Suitable for use with messy, unstructured domains.",
+    image: {
+      src: Marshall,
+      alt: "Program Sketches with Scorer Holes",
     },
   },
   {
