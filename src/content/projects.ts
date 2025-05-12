@@ -15,6 +15,7 @@ import SimplifyTypes from "@/../public/projects/simplify-types.png";
 import LearnabilityProgramSynthesizers from "@/../public/publications/learnability-program-synthesizers.png";
 import LRLWiki from "@/../public/publications/lrl_comparison.png";
 import PBN from "@/../public/projects/PBN.png";
+import Translations from "@/../public/projects/translations.png";
 
 export interface Project {
   title: string;
@@ -40,6 +41,15 @@ export const PROJECTS: Project[] = [
     },
     acmDlUrl: "https://doi.org/10.1145/3729264",
     githubUrl: "https://github.com/justinlubin/honeybee",
+  },
+  {
+    title: "Exploring the Translation-As-Explanation Folk Wisdom for Program Editing Tasks",
+    description:
+      "A controlled trial to investigate whether program translations assist programmers editing code in an unfamiliar language. We found that there was a 67%–89% chance that translations alone actually made participants less likely to complete program modification tasks correctly in our study.",
+    image: {
+      src: Translations,
+      alt: "An overview of the controlled trial for the Translation-As-Explanation study",
+    },
   },
   {
     title: "Low-Resourced Languages and Online Knowledge Repositories: A Need-Finding Study",
