@@ -34,7 +34,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Programming by Navigation",
     description:
-      "A new interactive program synthesis paradigm to empower domain experts outside computer science to write the code they need.",
+      "A new interactive program synthesis paradigm to empower domain experts to write the code they need without programming expertise.",
     image: {
       src: PBN,
       alt: "Programming by Navigation",
