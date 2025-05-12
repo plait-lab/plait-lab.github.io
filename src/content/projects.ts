@@ -2,6 +2,7 @@ import type { StaticImageData } from "next/image";
 
 import STFP from "@/../public/publications/stfp.png";
 import NeedFindingGeospatialData from "@/../public/publications/need-finding-geospatial-data.png";
+import Marshall from "@/../public/projects/marshall.png";
 import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
 import FLOR from "@/../public/projects/flor.png";
 import Helena from "@/../public/projects/helena.png";
@@ -39,7 +40,7 @@ export const PROJECTS: Project[] = [
     acmDlUrl: "https://doi.org/10.1145/3613904.3642605",
     youtubeUrl: "https://www.youtube.com/watch?v=aJ8BIo2O4mY",
   },
-      
+  {
     title: "A Need-Finding Study with Users of Geospatial Data",
     description:
       "A contextual inquiry study exploring the challenges users face in finding, transforming, analyzing, and visualizing geospatial data, drawing on participants from Earth and climate science, the social sciences, and data journalism.",
@@ -64,12 +65,21 @@ export const PROJECTS: Project[] = [
     youtubeUrl: "https://youtu.be/Z_kUfUHswYg",
   },
   {
-    title: "Entity Extraction From Police Records",
+    title: "Marshall: Extracting Structured Data from Templated Documents",
     description:
-      "Program synthesis tool to match documents based on locational similarities.",
+      "An instantiation of the Program Sketches with Scorer Holes synthesis framework that extracts structured information from templated PDFs.",
     image: {
       src: EntityExtraction,
       alt: "Entity Extraction From Police Records",
+    },
+  },
+  {
+    title: "Program Sketches with Scorer Holes",
+    description:
+      "A sketch-based program synthesizer that fills sketch holes with scorer programs. Suitable for use with messy, unstructured domains.",
+    image: {
+      src: Marshall,
+      alt: "Program Sketches with Scorer Holes",
     },
   },
   {
