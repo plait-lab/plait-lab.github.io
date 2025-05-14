@@ -1,21 +1,21 @@
 import type { StaticImageData } from "next/image";
 
 import CoDesignTransparency from "@/../public/publications/co-design-transparency.png";
-import NeedFindingGeospatialData from "@/../public/publications/need-finding-geospatial-data.png";
-import Quickpose from "@/../public/publications/quickpose.png";
-import LearnabilityProgramSynthesizers from "@/../public/publications/learnability-program-synthesizers.png";
-import ProgramSlicingNbs from "@/../public/publications/program-slicing-nbs.png";
-import HousingPolicyWebAutomation from "@/../public/publications/housing-policy-web-automation.png";
-import OpenKnowledgeNetwork from "@/../public/publications/open-knowledge-network.png";
-import STFP from "@/../public/publications/stfp.png";
-import PLHCI from "@/../public/publications/pl-hci.png";
-import IncidentalSpecs from "@/../public/publications/incidental-specs.png";
-import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
 import EquivalenceByCanonicalization from "@/../public/projects/equivalence-by-canonicalization.png";
-import PBN from "@/../public/projects/PBN.png";
-import STSearch from "@/../public/projects/stsearch.svg";
+import FastDM from "@/../public/publications/fast-dm.png";
+import HousingPolicyWebAutomation from "@/../public/publications/housing-policy-web-automation.png";
+import IncidentalSpecs from "@/../public/publications/incidental-specs.png";
+import LearnabilityProgramSynthesizers from "@/../public/publications/learnability-program-synthesizers.png";
 import LRLWiki from "@/../public/publications/lrl_comparison.png";
-
+import NeedFindingGeospatialData from "@/../public/publications/need-finding-geospatial-data.png";
+import OpenKnowledgeNetwork from "@/../public/publications/open-knowledge-network.png";
+import PBN from "@/../public/projects/PBN.png";
+import PLHCI from "@/../public/publications/pl-hci.png";
+import ProgramSlicingNbs from "@/../public/publications/program-slicing-nbs.png";
+import Quickpose from "@/../public/publications/quickpose.png";
+import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
+import STFP from "@/../public/publications/stfp.png";
+import STSearch from "@/../public/projects/stsearch.svg";
 
 interface PublicationAttributes {
   title: string;
@@ -65,13 +65,8 @@ export type Publication =
 export const PUBLICATIONS: Publication[] = [
   {
     kind: PublicationKind.Journal,
-    title:
-      "Programming by Navigation",
-    authors: [
-      "Justin Lubin",
-      "Parker Ziegler",
-      "Sarah E. Chasins",
-    ],
+    title: "Programming by Navigation",
+    authors: ["Justin Lubin", "Parker Ziegler", "Sarah E. Chasins"],
     journal: {
       name: "Proceedings of the ACM on Programming Languages",
       volume: 9,
@@ -84,7 +79,20 @@ export const PUBLICATIONS: Publication[] = [
   {
     kind: PublicationKind.Journal,
     title:
-      "Equivalence by Canonicalization for Synthesis-Backed Refactoring",
+      "Fast Direct Manipulation Programming with Patch-Reconciliation Correspondence",
+    authors: ["Parker Ziegler", "Justin Lubin", "Sarah E. Chasins"],
+    journal: {
+      name: "Proceedings of the ACM on Programming Languages",
+      volume: 9,
+      issue: "PLDI",
+    },
+    hero: FastDM,
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3729278",
+    date: new Date("2025-06-01"),
+  },
+  {
+    kind: PublicationKind.Journal,
+    title: "Equivalence by Canonicalization for Synthesis-Backed Refactoring",
     authors: [
       "Justin Lubin",
       "Jeremy Ferguson*",
@@ -104,8 +112,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     kind: PublicationKind.Journal,
-    title:
-      "Syntactic Code Search with Sequence-to-Tree Matching",
+    title: "Syntactic Code Search with Sequence-to-Tree Matching",
     authors: [
       "Gabriel Matute",
       "Wode Ni",
@@ -126,11 +133,7 @@ export const PUBLICATIONS: Publication[] = [
     kind: PublicationKind.Conference,
     title:
       "Low-resourced Languages and Online Knowledge Repositories: A Need-Finding Study",
-    authors: [
-      "Hellina Hailu Nigatu",
-      "John Canny",
-      "Sarah E. Chasins",
-    ],
+    authors: ["Hellina Hailu Nigatu", "John Canny", "Sarah E. Chasins"],
     conference: {
       name: "Proceedings of the 2024 ACM Conference on Human Factors in Computing Systems",
       acronym: "CHI",
@@ -140,15 +143,10 @@ export const PUBLICATIONS: Publication[] = [
     youtubeUrl: "https://www.youtube.com/watch?v=aJ8BIo2O4mY",
     date: new Date("2024-05-11"),
   },
-   {
+  {
     kind: PublicationKind.Conference,
-    title:
-      "A Need Finding Study with Low-Resourced Language Content Creators",
-    authors: [
-      "Hellina Hailu Nigatu",
-      "John Canny",
-      "Sarah E. Chasins",
-    ],
+    title: "A Need Finding Study with Low-Resourced Language Content Creators",
+    authors: ["Hellina Hailu Nigatu", "John Canny", "Sarah E. Chasins"],
     conference: {
       name: "Proceedings of the 4th ACM African Human Computer Interaction Conference",
       acronym: "AfriCHI",
