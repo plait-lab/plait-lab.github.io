@@ -16,6 +16,8 @@ import LearnabilityProgramSynthesizers from "@/../public/publications/learnabili
 import LRLWiki from "@/../public/publications/lrl_comparison.png";
 import PBN from "@/../public/projects/PBN.png";
 import Translations from "@/../public/projects/translations.png";
+import CodePlate from "@/../public/projects/codeplate.png";
+import Hilt from "@/../public/projects/hilt.png";
 
 export interface Project {
   title: string;
@@ -205,5 +207,24 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/erawn/Quickpose",
     acmDlUrl: "https://dl.acm.org/doi/abs/10.1145/3544548.3581394",
     youtubeUrl: "https://youtu.be/jTxCNGen8zo",
+  },
+  {
+    title: "CodePlate: Structured Natural Language Interactions for Arduino Programming Tasks",
+    description:
+      "A structured natural language interaction to generate Arduino programs, used to probe how different flavors of natural language program generation impact understanding.",
+    image: {
+      src: CodePlate,
+      alt: "CodePlate: Structured Natural Language Interactions for Arduino Programming Tasks",
+    },
+  },
+  {
+    title: "HiLT: A Library for Generating Human-in-the-Loop Data Transformation GUIs",
+    description:
+      "A Python eDSL for generating bespoke, human-in-the-loop data transformation GUIs.",
+    image: {
+      src: Hilt,
+      alt: "HiLT: A Library for Generating Human-in-the-Loop Data Transformation GUIs",
+    },
+    githubUrl: "https://github.com/skberkeley/coolnewlanguage",
   },
 ];
