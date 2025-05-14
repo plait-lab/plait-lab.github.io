@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import Text from "@/components/shared/Text";
-import { Project } from "@/content/projects";
+import type { Project } from "@/content/projects";
 
 import AcmDl from "@/../public/acm-dl.png";
 import GitHub from "@/../public/github-mark.png";
@@ -30,7 +30,7 @@ const Project: React.FC<Props> = ({
           <Image
             src={src}
             alt={alt}
-            className="h-52 w-auto rounded-md object-cover shadow-lg"
+            className="h-52 w-auto rounded-md border border-primary/25 object-cover shadow-lg"
           />
           <p>{title}</p>
         </a>
@@ -39,39 +39,51 @@ const Project: React.FC<Props> = ({
           <Image
             src={src}
             alt={alt}
-            className="h-52 w-auto rounded-md object-cover shadow-lg"
+            className="h-52 w-auto rounded-md border border-primary/25 object-cover shadow-lg"
           />
           <p>{title}</p>
         </div>
       )}
       <div>
-        {githubUrl ?
-          (<a className="text-primary inline-block mr-2" href={githubUrl}>
-              <Image
-                src={GitHub}
-                alt={`${title} on GitHub`}
-                width={20}
-                height={20} />
-          </a>) : ""
-        }
-        {acmDlUrl ?
-          (<a className="text-primary inline-block mr-2" href={acmDlUrl}>
-              <Image
-                src={AcmDl}
-                alt={`${title} on ACM DL`}
-                width={20}
-                height={20} />
-          </a>) : ""
-        }
-        {youtubeUrl ?
-          (<a className="text-primary inline-block mr-2 align-text-top" href={youtubeUrl}>
-              <Image
-                src={YouTube}
-                alt={`${title} on Youtube`}
-                width={20}
-                height={20} />
-          </a>) : ""
-        }
+        {githubUrl ? (
+          <a className="mr-2 inline-block text-primary" href={githubUrl}>
+            <Image
+              src={GitHub}
+              alt={`${title} on GitHub`}
+              width={20}
+              height={20}
+            />
+          </a>
+        ) : (
+          ""
+        )}
+        {acmDlUrl ? (
+          <a className="mr-2 inline-block text-primary" href={acmDlUrl}>
+            <Image
+              src={AcmDl}
+              alt={`${title} on ACM DL`}
+              width={20}
+              height={20}
+            />
+          </a>
+        ) : (
+          ""
+        )}
+        {youtubeUrl ? (
+          <a
+            className="mr-2 inline-block align-text-top text-primary"
+            href={youtubeUrl}
+          >
+            <Image
+              src={YouTube}
+              alt={`${title} on Youtube`}
+              width={20}
+              height={20}
+            />
+          </a>
+        ) : (
+          ""
+        )}
       </div>
       <Text>{description}</Text>
     </div>

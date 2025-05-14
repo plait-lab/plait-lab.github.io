@@ -1,23 +1,24 @@
 import type { StaticImageData } from "next/image";
 
-import STFP from "@/../public/publications/stfp.png";
-import NeedFindingGeospatialData from "@/../public/publications/need-finding-geospatial-data.png";
-import Marshall from "@/../public/projects/marshall.png";
-import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
-import FLOR from "@/../public/projects/flor.png";
-import Helena from "@/../public/projects/helena.png";
-import QuickPose from "@/../public/projects/quickpose.jpg";
+import cartokit from "@/../public/projects/cartokit.png";
+import CodePlate from "@/../public/projects/codeplate.png";
 import DOT from "@/../public/projects/dot.png";
 import EntityExtraction from "@/../public/projects/entity-extraction.jpeg";
 import EquivalenceByCanonicalization from "@/../public/projects/equivalence-by-canonicalization.png";
-import STSearch from "@/../public/projects/stsearch.svg";
-import SimplifyTypes from "@/../public/projects/simplify-types.png";
+import FLOR from "@/../public/projects/flor.png";
+import Helena from "@/../public/projects/helena.png";
+import Hilt from "@/../public/projects/hilt.png";
 import LearnabilityProgramSynthesizers from "@/../public/publications/learnability-program-synthesizers.png";
 import LRLWiki from "@/../public/publications/lrl_comparison.png";
+import Marshall from "@/../public/projects/marshall.png";
+import NeedFindingGeospatialData from "@/../public/publications/need-finding-geospatial-data.png";
 import PBN from "@/../public/projects/PBN.png";
+import QuickPose from "@/../public/projects/quickpose.jpg";
+import SimplifyTypes from "@/../public/projects/simplify-types.png";
+import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
+import STFP from "@/../public/publications/stfp.png";
+import STSearch from "@/../public/projects/stsearch.svg";
 import Translations from "@/../public/projects/translations.png";
-import CodePlate from "@/../public/projects/codeplate.png";
-import Hilt from "@/../public/projects/hilt.png";
 
 export interface Project {
   title: string;
@@ -45,7 +46,8 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/justinlubin/honeybee",
   },
   {
-    title: "Exploring the Translation-As-Explanation Folk Wisdom for Program Editing Tasks",
+    title:
+      "Exploring the Translation-As-Explanation Folk Wisdom for Program Editing Tasks",
     description:
       "A controlled trial to investigate whether program translations assist programmers editing code in an unfamiliar language. We found that there was a 67%–89% chance that translations alone actually made participants less likely to complete program modification tasks correctly in our study.",
     image: {
@@ -54,7 +56,20 @@ export const PROJECTS: Project[] = [
     },
   },
   {
-    title: "Low-Resourced Languages and Online Knowledge Repositories: A Need-Finding Study",
+    title: "cartokit",
+    description:
+      "A direct manipulation programming system for interactive cartography on the web. cartokit allows you to analyze and visualize geospatial data using familiar direct manipulation interactions while simultaneously generating JavaScript or TypeScript code for your map.",
+    image: {
+      src: cartokit,
+      alt: "Three screenshots of maps and associated programs created with cartokit, with the tagline 'Style maps. Get Programs.' beneath the screenshots.",
+    },
+    href: "https://alpha.cartokit.dev/",
+    githubUrl: "https://github.com/parkerziegler/cartokit",
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3729278",
+  },
+  {
+    title:
+      "Low-Resourced Languages and Online Knowledge Repositories: A Need-Finding Study",
     description:
       "A need-finding study with Wikipedia contributors in Amharic, Afan Oromo, and Tigrinya to understand barriers to contribution in low-resourced languages.",
     image: {
@@ -209,7 +224,8 @@ export const PROJECTS: Project[] = [
     youtubeUrl: "https://youtu.be/jTxCNGen8zo",
   },
   {
-    title: "CodePlate: Structured Natural Language Interactions for Arduino Programming Tasks",
+    title:
+      "CodePlate: Structured Natural Language Interactions for Arduino Programming Tasks",
     description:
       "A structured natural language interaction to generate Arduino programs, used to probe how different flavors of natural language program generation impact understanding.",
     image: {
@@ -218,7 +234,8 @@ export const PROJECTS: Project[] = [
     },
   },
   {
-    title: "HiLT: A Library for Generating Human-in-the-Loop Data Transformation GUIs",
+    title:
+      "HiLT: A Library for Generating Human-in-the-Loop Data Transformation GUIs",
     description:
       "A Python eDSL for generating bespoke, human-in-the-loop data transformation GUIs.",
     image: {

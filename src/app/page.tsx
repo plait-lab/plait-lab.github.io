@@ -1,16 +1,20 @@
+import { partition } from "lodash-es";
 import Image from "next/image";
 
-import News from "@/components/news/News";
 import LabMember from "@/components/people/LabMember";
 import Project from "@/components/projects/Project";
 import Heading from "@/components/shared/Heading";
 import Text from "@/components/shared/Text";
-import { NEWS } from "@/content/news";
-import { PEOPLE } from "@/content/people";
+import { PEOPLE, Role } from "@/content/people";
 import { PROJECTS } from "@/content/projects";
 import BerkeleyMini from "@/../public/images/berkeley-mini.png";
 
 const Index = () => {
+  const [currentLabMembers, alumni] = partition(
+    PEOPLE,
+    (person) => person.role !== Role.Alumni
+  );
+
   return (
     <main className="stack stack-sm py-8">
       <h1 className="text-center text-7xl md:text-mega">
@@ -62,12 +66,23 @@ const Index = () => {
           })}
         </div>
       </section>
-      <section className="stack stack-xs p-4">
+      <section className="stack stack-lg p-4">
         <Heading level="h2">People</Heading>
-        <div className="grid grid-cols-12 gap-5">
-          {PEOPLE.map((person) => {
-            return <LabMember key={person.id} {...person} />;
-          })}
+        <div className="stack stack-sm">
+          <Heading level="h3">Current Lab Members</Heading>
+          <div className="grid grid-cols-12 gap-5">
+            {currentLabMembers.map((person) => {
+              return <LabMember key={person.id} {...person} />;
+            })}
+          </div>
+        </div>
+        <div className="stack stack-sm">
+          <Heading level="h3">Alumni</Heading>
+          <div className="grid grid-cols-12 gap-5">
+            {alumni.map((person) => {
+              return <LabMember key={person.id} {...person} />;
+            })}
+          </div>
         </div>
       </section>
     </main>

@@ -20,10 +20,20 @@ import LRojas from "@/../public/headshots/lrojas.png";
 import DCao from "@/../public/headshots/dcao.jpg";
 import SKanosue from "@/../public/headshots/skanosue.jpg";
 
+export enum Role {
+  Faculty = "Faculty",
+  PhDCandidate = "Ph.D. Candidate",
+  PhdStudent = "Ph.D. Student",
+  MScStudent = "M.Sc. Student",
+  UndergraduateStudent = "Undergraduate Student",
+  UndergraduateAssistant = "Undergraduate Student Assistant",
+  Alumni = "Alumni",
+}
+
 export interface Person {
   id: string;
   name: string;
-  role: string;
+  role: Role;
   headshot: StaticImageData;
   website?: string;
 }
@@ -32,129 +42,129 @@ export const PEOPLE = [
   {
     id: "schasins",
     name: "Sarah E. Chasins",
-    role: "Faculty",
+    role: Role.Faculty,
     headshot: SChasins,
     website: "https://schasins.com/",
   },
   {
     id: "rgarcia",
     name: "Rolando Garcia",
-    role: "Ph.D. Candidate",
+    role: Role.Alumni,
     headshot: RGarcia,
     website: "https://rlnsanz.github.io/",
   },
   {
+    id: "hhailunigatu",
+    name: "Hellina Hailu Nigatu",
+    role: Role.PhDCandidate,
+    headshot: HHailuNigatu,
+    website: "https://hhnigatu.github.io/",
+  },
+  {
     id: "slim",
     name: "Slim Lim",
-    role: "Ph.D. Student",
+    role: Role.PhdStudent,
     headshot: SLim,
     website: "https://slim.computer/",
   },
   {
     id: "jlubin",
     name: "Justin Lubin",
-    role: "Ph.D. Candidate",
+    role: Role.PhDCandidate,
     headshot: JLubin,
     website: "https://jlubin.net",
   },
   {
+    id: "dcao",
+    name: "David Minh-Duy Cao",
+    role: Role.PhdStudent,
+    headshot: DCao,
+    website: "https://cao.sh",
+  },
+  {
     id: "gmatute",
     name: "Gabriel Matute",
-    role: "Ph.D. Student",
+    role: Role.Alumni,
     headshot: GMatute,
     website: "https://about.gmatute.dev/",
   },
   {
-    id: "hhailunigatu",
-    name: "Hellina Hailu Nigatu",
-    role: "Ph.D. Student",
-    headshot: HHailuNigatu,
-    website: "https://hhnigatu.github.io/",
-  },
-  {
     id: "erawn",
     name: "Eric Rawn",
-    role: "Ph.D. Student",
+    role: Role.PhdStudent,
     headshot: ERawn,
     website: "https://www.ericrawn.media/",
   },
   {
     id: "pziegler",
     name: "Parker Ziegler",
-    role: "Ph.D. Student",
+    role: Role.PhdStudent,
     headshot: PZiegler,
     website: "https://parkerziegler.com/",
   },
   {
-    id: "dcao",
-    name: "David Minh-Duy Cao",
-    role: "Ph.D. Student",
-    headshot: DCao,
-    website: "https://cao.sh",
-  },
-  {
     id: "djayagopal",
     name: "Dhanya Jayagopal",
-    role: "M.Sc. Student",
+    role: Role.Alumni,
     headshot: DJayagopal,
   },
   {
     id: "jyim",
     name: "Jacob Yim",
-    role: "M.Sc. Student",
+    role: Role.Alumni,
     headshot: JYim,
   },
   {
     id: "skanosue",
     name: "Sora Kanosue",
-    role: "M.Sc. Student",
+    role: Role.Alumni,
     headshot: SKanosue,
     website: "https://skanosue.com",
   },
   {
     id: "lrennels",
     name: "Lisa Rennels",
-    role: "Energy & Resources Group Ph.D. Student, EECS M.Sc.",
+    role: Role.Alumni,
     headshot: LRennels,
     website: "https://lisarennels.com/",
   },
   {
     id: "adermirci",
     name: "Arda Demirci",
-    role: "Undergraduate Student",
+    role: Role.Alumni,
     headshot: ADemirci,
     website: "https://www.linkedin.com/in/ardademirci14/",
   },
   {
     id: "rhicke",
     name: "Rebecca Hicke",
-    role: "Undergraduate Student",
+    role: Role.Alumni,
     headshot: RHicke,
     website: "https://rmatouschekh.github.io/",
   },
   {
     id: "skim",
     name: "Selina Kim",
-    role: "Undergraduate Student",
+    role: Role.Alumni,
     headshot: SKim,
   },
   {
     id: "rmishra",
     name: "Rajavi Mishra",
-    role: "Undergraduate Student",
+    role: Role.Alumni,
     headshot: RMishra,
   },
   {
     id: "hperlstein",
     name: "Hannah Perlstein",
-    role: "Undergraduate Student",
+    role: Role.Alumni,
     headshot: HPerlstein,
     website: "https://www.linkedin.com/in/hannah-perlstein/",
   },
   {
     id: "lrojas",
     name: "Liliana Rojas",
-    role: "Undergraduate Student Assistant",
+    role: Role.Alumni,
     headshot: LRojas,
     website: "https://www.linkedin.com/in/liliana-rojasl/",
   },
