@@ -1,5 +1,4 @@
-import partition from "lodash.partition";
-import orderBy from "lodash.orderby";
+import { orderBy, partition } from "lodash-es";
 
 import Publication from "@/components/publications/Publication";
 import Heading from "@/components/shared/Heading";
