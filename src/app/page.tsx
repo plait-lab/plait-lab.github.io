@@ -2,6 +2,7 @@ import { partition } from "lodash-es";
 import Image from "next/image";
 
 import LabMember from "@/components/people/LabMember";
+import LabAlum from "@/components/people/LabAlum";
 import Project from "@/components/projects/Project";
 import Heading from "@/components/shared/Heading";
 import Text from "@/components/shared/Text";
@@ -69,7 +70,6 @@ const Index = () => {
       <section className="stack stack-lg p-4">
         <Heading level="h2">People</Heading>
         <div className="stack stack-sm">
-          <Heading level="h3">Current Lab Members</Heading>
           <div className="grid grid-cols-12 gap-5">
             {currentLabMembers.map((person) => {
               return <LabMember key={person.id} {...person} />;
@@ -77,10 +77,10 @@ const Index = () => {
           </div>
         </div>
         <div className="stack stack-sm">
-          <Heading level="h3">Alumni</Heading>
+          <Heading level="h3">Alums</Heading>
           <div className="grid grid-cols-12 gap-5">
             {alumni.map((person) => {
-              return <LabMember key={person.id} {...person} />;
+              return <LabAlum key={person.id} {...person} />;
             })}
           </div>
         </div>

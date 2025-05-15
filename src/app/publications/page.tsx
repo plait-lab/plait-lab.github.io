@@ -14,12 +14,7 @@ const Publications = () => {
   return (
     <main className="stack stack-sm py-8">
       <section className="stack stack-lg p-4">
-        <Heading level="h1">Publications</Heading>
-        <Text>
-          At PLAIT Lab, we publish in a range of venues spanning Programming
-          Languages (PL), Human-Computer Interaction (HCI), and fairness,
-          accountability, and transparency in algorithmic systems.
-        </Text>
+        <Heading level="h2">Conference and Journal Publications</Heading>
         <ul className="stack stack-xl">
           {publications.map((publication) => (
             <Publication key={publication.title} {...publication} />
