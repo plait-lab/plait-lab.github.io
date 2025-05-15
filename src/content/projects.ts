@@ -27,6 +27,7 @@ export interface Project {
     src: StaticImageData;
     alt: string;
   };
+  order: number;
   href?: string;
   githubUrl?: string;
   acmDlUrl?: string;
@@ -44,6 +45,7 @@ export const PROJECTS: Project[] = [
     },
     acmDlUrl: "https://doi.org/10.1145/3729264",
     githubUrl: "https://github.com/justinlubin/honeybee",
+    order: 24,
   },
   {
     title:
@@ -54,6 +56,7 @@ export const PROJECTS: Project[] = [
       src: Translations,
       alt: "An overview of the controlled trial for the Translation-As-Explanation study",
     },
+    order: 15,
   },
   {
     title: "cartokit",
@@ -66,6 +69,7 @@ export const PROJECTS: Project[] = [
     href: "https://alpha.cartokit.dev/",
     githubUrl: "https://github.com/parkerziegler/cartokit",
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3729278",
+    order: 25,
   },
   {
     title:
@@ -78,6 +82,7 @@ export const PROJECTS: Project[] = [
     },
     acmDlUrl: "https://doi.org/10.1145/3613904.3642605",
     youtubeUrl: "https://www.youtube.com/watch?v=aJ8BIo2O4mY",
+    order: 7
   },
   {
     title: "A Need-Finding Study with Users of Geospatial Data",
@@ -89,6 +94,7 @@ export const PROJECTS: Project[] = [
     },
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3544548.3581370",
     youtubeUrl: "https://youtu.be/ZIZTstW42w0",
+    order: 20,
   },
   {
     title:
@@ -102,6 +108,7 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/hhnigatu/DOT",
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3593013.3594093",
     youtubeUrl: "https://youtu.be/Z_kUfUHswYg",
+    order: 6
   },
   {
     title: "Marshall: Extracting Structured Data from Templated Documents",
@@ -111,6 +118,7 @@ export const PROJECTS: Project[] = [
       src: EntityExtraction,
       alt: "Entity Extraction From Police Records",
     },
+    order: 18,
   },
   {
     title: "Program Sketches with Scorer Holes",
@@ -120,6 +128,7 @@ export const PROJECTS: Project[] = [
       src: Marshall,
       alt: "Program Sketches with Scorer Holes",
     },
+    order: 19,
   },
   {
     title: "cobbler: The Component-Based Refactoring Synthesizer",
@@ -131,6 +140,7 @@ export const PROJECTS: Project[] = [
     },
     githubUrl: "https://github.com/justinlubin/cobbler",
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3656453",
+    order: 21,
   },
   {
     title: "Syntactic Code Search with Sequence-to-Tree Matching",
@@ -142,6 +152,7 @@ export const PROJECTS: Project[] = [
     },
     githubUrl: "https://github.com/plait-lab/stsearch",
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3656460",
+    order: 16,
   },
   {
     title:
@@ -154,6 +165,7 @@ export const PROJECTS: Project[] = [
     },
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3526113.3545659",
     youtubeUrl: "https://www.youtube.com/watch?v=k5e6wOPrGic",
+    order: 17,
   },
   {
     title: "Change in Software Ecosystems",
@@ -164,6 +176,7 @@ export const PROJECTS: Project[] = [
       alt: "Change in Software Ecosystems",
     },
     href: "https://kilthub.cmu.edu/articles/conference_contribution/Change_in_Software_Ecosystems/19799314?backTo=/collections/PLATEAU_2022/5957631",
+    order: 2
   },
   {
     title: "Simplifying Refinement Types",
@@ -174,6 +187,7 @@ export const PROJECTS: Project[] = [
       alt: "Simplifying Refinement Types",
     },
     githubUrl: "https://github.com/plait-lab/simplify-types",
+    order: 3,
   },
   {
     title: "FLOR: Fast Low-Overhead Recovery",
@@ -184,6 +198,7 @@ export const PROJECTS: Project[] = [
     },
     githubUrl: "https://github.com/ucbrise/flor/",
     acmDlUrl: "https://dl.acm.org/doi/10.14778/3436905.3436925",
+    order: 1
   },
   {
     title: "Helena",
@@ -197,6 +212,7 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/schasins/helena",
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3133875",
     youtubeUrl: "https://www.youtube.com/watch?v=Fy4UBVzOHvU",
+    order: 0
   },
   {
     title: "How Statically-Typed Functional Programmers Write Code",
@@ -208,6 +224,7 @@ export const PROJECTS: Project[] = [
     },
     acmDlUrl: "https://dl.acm.org/doi/10.1145/3485532",
     youtubeUrl: "https://youtu.be/2Z3Z3Z3Z3Z3",
+    order: 13,
   },
   {
     title:
@@ -222,6 +239,7 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/erawn/Quickpose",
     acmDlUrl: "https://dl.acm.org/doi/abs/10.1145/3544548.3581394",
     youtubeUrl: "https://youtu.be/jTxCNGen8zo",
+    order: 12,
   },
   {
     title:
@@ -232,6 +250,7 @@ export const PROJECTS: Project[] = [
       src: CodePlate,
       alt: "CodePlate: Structured Natural Language Interactions for Arduino Programming Tasks",
     },
+    order: 11,
   },
   {
     title:
@@ -243,5 +262,6 @@ export const PROJECTS: Project[] = [
       alt: "HiLT: A Library for Generating Human-in-the-Loop Data Transformation GUIs",
     },
     githubUrl: "https://github.com/skberkeley/coolnewlanguage",
+    order: 10
   },
 ];

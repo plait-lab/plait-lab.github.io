@@ -1,4 +1,4 @@
-import { partition } from "lodash-es";
+import { partition, orderBy } from "lodash-es";
 import Image from "next/image";
 
 import LabMember from "@/components/people/LabMember";
@@ -62,7 +62,7 @@ const Index = () => {
       <section className="stack stack-xs p-4">
         <Heading level="h2">Projects</Heading>
         <div className="grid grid-cols-12 gap-y-20 md:gap-12">
-          {PROJECTS.map((project) => {
+          {orderBy(PROJECTS, (p) => p.order, ["desc"]).map((project) => {
             return <Project key={project.title} {...project} />;
           })}
         </div>
