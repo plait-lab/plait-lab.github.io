@@ -20,6 +20,7 @@ import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
 import STFP from "@/../public/publications/stfp.png";
 import STSearch from "@/../public/projects/stsearch.svg";
 import Translations from "@/../public/projects/translations.png";
+import Perpend from "@/../public/projects/Perpend.png"
 
 export interface Project {
   title: string;
@@ -277,4 +278,16 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/skberkeley/coolnewlanguage",
     order: 10
   },
+  {
+    title:
+      "Perpend: Output-Centric Programming For Creative Coders",
+    description:
+      "A p5.js web editor to support exploratory, output-directed coding.",
+    image: {
+      src: Perpend,
+      alt: "A p5.js web editor to support exploratory, output-directed coding",
+    },
+    githubUrl: "https://github.com/angela-bi/p5_pbcd",
+    order: 11
+  }
 ];
