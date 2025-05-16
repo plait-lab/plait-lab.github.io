@@ -89,7 +89,6 @@ const Index = () => {
         <Heading level="h2">Collaborations Outside Computing</Heading>
         <div className="stack stack-sm">
           <div>
-            <Text>
               Our work in PLAIT Lab is only possible because of close collaborations with our partners from outside of computing.  This list will be incomplete, but we'd especially like to thank (in alphabetical order):
               <ul>
                 <li><a href="https://www.david-anthoff.com" target="_blank">David Anthoff</a>'s Energy and Resources Lab, and especially <a href="https://www.lisarennels.com" target="_blank">Lisa Rennels</a>;</li>
@@ -105,7 +104,6 @@ const Index = () => {
                 <li><a href="https://journalism.stanford.edu/people/cheryl-phillips" target="_blank">Cheryl Phillips</a> and <a href="https://biglocalnews.org/">Big Local News</a>; </li>
                 <li>the <a href="https://www.urbandisplacement.org" target="_blank">Urban Displacement Project</a> and especially <a href="https://www.urbandisplacement.org/team/tim-thomas-ph-d/" target="_blank">Tim Thomas</a></li>
               </ul>
-            </Text>
           </div>
         </div>
       </section>
