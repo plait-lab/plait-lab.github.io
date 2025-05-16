@@ -1,4 +1,5 @@
-import { orderBy, partition } from "lodash-es";
+import partition from "lodash.partition";
+import orderBy from "lodash.orderby";
 
 import Publication from "@/components/publications/Publication";
 import Heading from "@/components/shared/Heading";
@@ -14,7 +15,12 @@ const Publications = () => {
   return (
     <main className="stack stack-sm py-8">
       <section className="stack stack-lg p-4">
-        <Heading level="h2">Conference and Journal Publications</Heading>
+        <Heading level="h1">Publications</Heading>
+        <Text>
+          At PLAIT Lab, we publish in a range of venues spanning Programming
+          Languages (PL), Human-Computer Interaction (HCI), and fairness,
+          accountability, and transparency in algorithmic systems.
+        </Text>
         <ul className="stack stack-xl">
           {publications.map((publication) => (
             <Publication key={publication.title} {...publication} />

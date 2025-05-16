@@ -135,11 +135,3 @@
     @apply border-b border-b-primary font-semibold;
   }
 }
-
-a {
-  color:rgb(230 51 102);
-}
-ul {
-  list-style-type: square;
-  list-style-position: inside;
-}
