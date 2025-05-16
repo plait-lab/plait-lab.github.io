@@ -90,7 +90,7 @@ const Index = () => {
         <div className="stack stack-sm">
           <div>
             <Text>
-              Our work in PLAIT Lab is only possible because of close collaborations with our partners from outside of computing.  This list will be incomplete, but we'd especially like to thank, in alphabetical order:
+              Our work in PLAIT Lab is only possible because of close collaborations with our partners from outside of computing.  This list will be incomplete, but we'd especially like to thank (in alphabetical order):
               <ul>
                 <li><a href="https://www.david-anthoff.com" target="_blank">David Anthoff</a>'s Energy and Resources Lab, and especially <a href="https://www.lisarennels.com" target="_blank">Lisa Rennels</a>;</li>
                 <li>the <a href="https://www.czbiohub.org/sf/" target="_blank">Chan Zuckerberg Biohub</a>;</li>
