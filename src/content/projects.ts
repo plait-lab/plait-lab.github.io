@@ -12,6 +12,7 @@ import LearnabilityProgramSynthesizers from "@/../public/publications/learnabili
 import LRLWiki from "@/../public/publications/lrl_comparison.png";
 import Marshall from "@/../public/projects/marshall.png";
 import NeedFindingGeospatialData from "@/../public/publications/need-finding-geospatial-data.png";
+import Pagebreaks from "@/../public/projects/pagebreaks.png";
 import PBN from "@/../public/projects/PBN.png";
 import QuickPose from "@/../public/projects/quickpose.jpg";
 import SimplifyTypes from "@/../public/projects/simplify-types.png";
@@ -46,6 +47,18 @@ export const PROJECTS: Project[] = [
     acmDlUrl: "https://doi.org/10.1145/3729264",
     githubUrl: "https://github.com/justinlubin/honeybee",
     order: 24,
+  },
+  {
+    title: "Pagebreaks",
+    description:
+      "A language construct that implements multi-cell scopes for computational notebooks.  Stems from a close analysis of the interactions between programming language, programming environment, and programmer actions in computational notebook settings",
+    image: {
+      src: Pagebreaks,
+      alt: "Pagebreaks",
+    },
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3706598.3713620",
+    githubUrl: "https://github.com/erawn/pagebreaks",
+    order: 23,
   },
   {
     title:
