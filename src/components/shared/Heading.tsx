@@ -13,11 +13,14 @@ const Heading: React.FC<React.PropsWithChildren<Props>> = ({
 
   return (
     <Tag
-      className={cs({
-        "text-2xl font-bold md:text-3xl": level === "h1",
-        "text-xl font-bold md:text-2xl": level === "h2",
-        "text-lg  md:text-xl": level === "h3",
-      })}
+      className={cs(
+        {
+          "text-2xl md:text-3xl": level === "h1",
+          "text-xl md:text-2xl": level === "h2",
+          "text-lg md:text-xl": level === "h3",
+        },
+        "font-bold"
+      )}
     >
       {children}
     </Tag>

@@ -1,21 +1,35 @@
 import type { StaticImageData } from "next/image";
 
-import CoDesignTransparency from "@/../public/publications/co-design-transparency.png";
-import EquivalenceByCanonicalization from "@/../public/projects/equivalence-by-canonicalization.png";
-import FastDM from "@/../public/publications/fast-dm.png";
-import HousingPolicyWebAutomation from "@/../public/publications/housing-policy-web-automation.png";
-import IncidentalSpecs from "@/../public/publications/incidental-specs.png";
-import LearnabilityProgramSynthesizers from "@/../public/publications/learnability-program-synthesizers.png";
-import LRLWiki from "@/../public/publications/lrl_comparison.png";
+
 import NeedFindingGeospatialData from "@/../public/publications/need-finding-geospatial-data.png";
-import OpenKnowledgeNetwork from "@/../public/publications/open-knowledge-network.png";
-import PBN from "@/../public/projects/PBN.png";
-import PLHCI from "@/../public/publications/pl-hci.png";
-import ProgramSlicingNbs from "@/../public/publications/program-slicing-nbs.png";
 import Quickpose from "@/../public/publications/quickpose.png";
-import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
+import LearnabilityProgramSynthesizers from "@/../public/publications/learnability-program-synthesizers.png";
+import ProgramSlicingNbs from "@/../public/publications/program-slicing-nbs.png";
+import HousingPolicyWebAutomation from "@/../public/publications/housing-policy-web-automation.png";
+import OpenKnowledgeNetwork from "@/../public/publications/open-knowledge-network.png";
 import STFP from "@/../public/publications/stfp.png";
+import PLHCI from "@/../public/publications/pl-hci.png";
+import IncidentalSpecs from "@/../public/publications/incidental-specs.png";
+import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
+import EquivalenceByCanonicalization from "@/../public/projects/equivalence-by-canonicalization.png";
 import STSearch from "@/../public/projects/stsearch.svg";
+
+import CoDesignTransparency from "@/../public/publications/co-design-transparency.png";
+import LRLWiki from "@/../public/publications/lrl_comparison.png";
+import YouTubeHarm from "@/../public/publications/yt_harms.png"
+import AfricaStopWords from "@/../public/publications/africa_stop_words.png"
+import EnhancingTranslations from "@/../public/publications/enhancing_translations.png"
+import NeedFindingContentAnalysis from "@/../public/publications/need_fidning_africhi.png"
+import LessTheMerrier from "@/../public/publications/less_the_merrier.png"
+import CapabilitiesApproachShort from "@/../public/publications/CA_short.png"
+import ZenosParadox from "@/../public/publications/zenos_paradox.png"
+import ExploitationAllTheWay from "@/../public/publications/exploitation_all_the_way_down.png"
+import CognateDetection from "@/../public/publications/congnate_detection.png"
+import GenderBiasEval from "@/../public/publications/gender_bias_eval.png"
+import ZeroShotSpeech from "@/../public/publications/zero_shot_speech.png"
+import mRAKL from "@/../public/publications/mrakl.png"
+
+
 
 interface PublicationAttributes {
   title: string;
@@ -64,35 +78,218 @@ export type Publication =
 
 export const PUBLICATIONS: Publication[] = [
   {
-    kind: PublicationKind.Journal,
-    title: "Programming by Navigation",
-    authors: ["Justin Lubin", "Parker Ziegler", "Sarah E. Chasins"],
-    journal: {
-      name: "Proceedings of the ACM on Programming Languages",
-      volume: 9,
-      issue: "PLDI",
-    },
-    hero: PBN,
-    acmDlUrl: "https://dl.acm.org/doi/10.1145/3729264",
-    date: new Date("2025-06-01"),
+    kind: PublicationKind.Conference,
+    title:
+      'mRAKL:  Multilingual R etrieval-A ugmented Knowledge Graph Construction for Low-Resourced Languages',
+      authors: [
+       "Hellina Hailu Nigatu", 
+       "Min Li",
+       "Maartje ter Hoeve ",
+       "Saloni Potdar",
+       "Sarah E. Chasins"
+
+    ],
+    conference:{
+      name: "Proceedings of Findings of the Association of Computational Lingustics (ACL Findings)",
+      acronym: "ACL"
+
+    } ,
+    hero: mRAKL,
+    acmDlUrl: "",
+    date: new Date("2025-07-27"),
   },
   {
+    kind: PublicationKind.Workshop,
+    title:
+      'Exploring Transliteration-Based Zero-Shot Transfer for Amharic ASR',
+      authors: [
+      "Hellina Hailu Nigatu", 
+      "Hanan Aldarmaki"
+    ],
+    workshop: '6th Workshop on African Natural Language Processing',
+    hero: ZeroShotSpeech,
+    pdfUrl: "https://openreview.net/pdf?id=YUl0dCLlRi",
+    date: new Date("2025-07-31"),
+  },
+  {
+    kind: PublicationKind.Workshop,
+    title:
+      'Evaluating Gender Bias in Machine Translation for Low-Resource Languages',
+      authors: [
+       "Walelign Tewabe Sewunetie",
+      "Atnafu Lambebo Tonja",
+      "Tadesse Destaw Belay",
+      "Hellina Hailu Nigatu", 
+      "Gashaw Kidanu", 
+      "Zewdie Mossie", 
+      "Hussien Seid", 
+      "Eshete Derb", 
+      "Seid Muhie Yimam"
+    ],
+    workshop: '5th Workshop on African Natural Language Processing',
+    hero: GenderBiasEval,
+    pdfUrl: "https://openreview.net/pdf?id=9BTp1rhfx7",
+    date: new Date("2024-03-03"),
+  },
+  {
+    kind: PublicationKind.Conference,
+    title:
+      'Cognate Detection for Historical Language Reconstruction of Proto-Sabean Languages: the Case of Ge’ez, Tigrinya, and Amharic',
+      authors: [
+        "Elleni Sisay Temesgen",
+       "Hellina Hailu Nigatu", 
+       "Fitsum Assamnew Andargie"
+    ],
+    conference:{
+      name: "Proceedings of the 31st International Conference on Computational Linguistics",
+      acronym: "COLING"
+
+    } ,
+    hero: CognateDetection,
+    acmDlUrl: "https://aclanthology.org/2025.coling-main.496/",
+    date: new Date("2025-01-09"),
+  },
+    
+  {
+    kind: PublicationKind.Workshop,
+    title:
+      'Exploitation All the Way Down: Calling out the Root Cause of Bad Online Experiences for Users of the" Majority World"',
+      authors: [
+       "Hellina Hailu Nigatu", 
+       "Zeerak Talat"
+    ],
+    workshop: 'Chapter in Official Outcome of the UN IGF Data and Artificial Intelligence Governance Coalition report on AI from the Global Majoirty',
+    hero: ExploitationAllTheWay,
+    pdfUrl: "https://arxiv.org/pdf/2501.14748",
+    date: new Date("2024-12-14"),
+  },
+
+  {
+    kind: PublicationKind.Conference,
+    title:
+      "The Zeno’s Paradox of ‘Low-Resource’ Languages",
+      authors: [
+       "Hellina Hailu Nigatu", 
+       "Atnafu Lambebo Tonja",
+       "Benjamin Rosman", 
+       "Thamar Solorio", 
+       "Monojit Choudhury"
+    ],
+    conference: {
+      name: "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      acronym: "EMNLP"
+    },
+    hero: ZenosParadox,
+    acmDlUrl: "https://aclanthology.org/2024.emnlp-main.983/",
+    date: new Date("2024-11-14"),
+  },
+  
+  {
+    kind: PublicationKind.Workshop,
+    title:
+      "A Capabilities Approach to Studying Bias and Harm in Language Technologies",
+      authors: [
+      
+       "Hellina Hailu Nigatu", 
+      "Zeerak Talat"
+    ],
+    workshop: "Workshop on New Perspectives on Bias and Discrimination in Language Technology",
+      
+    hero: CapabilitiesApproachShort,
+    pdfUrl: "https://arxiv.org/pdf/2411.04298",
+    date: new Date("2024-11-04"),
+  },
+  {
+    kind: PublicationKind.Conference,
+    title:
+      "“I Searched for a Religious Song in Amharic and Got Sexual Content Instead’’: Investigating Online Harm in Low-Resourced Languages on YouTube.",
+    authors: [
+      
+       "Hellina Hailu Nigatu", 
+      "Inioluwa Deborah Raji"
+    ],
+    conference: {
+      name: "Proceedings of the  2024 ACM Conference on Fairness, Accountability, and Transparency",
+      acronym: "FAccT",
+    },
+    hero: YouTubeHarm,
+    acmDlUrl: "https://doi.org/10.1145/3630106.3658546",
+    youtubeUrl: "",
+    date: new Date("2024-06-04"),
+  },
+  {
+    kind: PublicationKind.Conference,
+    title:
+      "The Less the Merrier? Investigating Language Representation in Multilingual Models",
+    authors: [
+      
+       "Hellina Hailu Nigatu", 
+      "Atnafu Lambebo Tonja", 
+       " Jugal Kalita"
+    ],
+    conference: {
+      name: "Proceedings of the Findings of the Association for Computational Linguistics",
+      acronym: "EMNLP",
+    },
+    hero: LessTheMerrier,
+    acmDlUrl: "https://aclanthology.org/2023.americasnlp-1.pdf#page=211",
+    youtubeUrl: "",
+    date: new Date("2023-12-07"),
+  },
+  {
+    kind: PublicationKind.Workshop,
+    title:
+      "Enhancing Translation for Indigenous Languages: Experiments with Multilingual Models",
+    authors: [
+      
+       "Hellina Hailu Nigatu", 
+      "Atnafu Lambebo Tonja", 
+      "Olga Kolesnikova",
+       "Grigori Sidorov", 
+       "Alexander Gelbukh",
+       " Jugal Kalita"
+    ],
+    workshop:
+      "Proceedings of the Workshop on Natural Language Processing for Indigenous Languages of the Americas",
+    hero: EnhancingTranslations,
+    pdfUrl: "https://aclanthology.org/2023.americasnlp-1.pdf#page=211",
+    // youtubeUrl: "",
+    date: new Date("2023-07-14"),
+  },
+  {
+    kind: PublicationKind.Workshop,
+    title:
+      "The African Stopwords Project: Curating Stopwords for African Languages",
+    authors: [
+      "Chris Chinenye Emezue",
+       "Hellina Hailu Nigatu", 
+      "Cynthia Thinwa", 
+      "Lerato Louis", 
+      "Idris Abdulmumin", 
+      "Samuel Gbenga Oyerinde",
+      "Benjamin Ayoade Ajibade",
+      "Helper Zhou",
+      "Emeka Felix Onwuegbuzia",
+      "Handel Chiagozie Emezue",
+      "Ifeoluwatayo Adeseye Ige", 
+      "Atnafu Lambebo Tonja", 
+      "Chiamaka Ijeoma Chukwuneke",
+       "Shamsuddeen Hassan Muhammad", 
+       "Olanrewaju Samuel",
+    ],
+    workshop:  "Proceedings of the 3rd Workshop on African Natural Language Processing",
+      
+    hero: AfricaStopWords,
+    pdfUrl: "https://arxiv.org/pdf/2304.12155",
+    // youtubeUrl: "",
+    date: new Date("2022-03-09"),
+  },
+
+  {
+    
     kind: PublicationKind.Journal,
     title:
-      "Fast Direct Manipulation Programming with Patch-Reconciliation Correspondence",
-    authors: ["Parker Ziegler", "Justin Lubin", "Sarah E. Chasins"],
-    journal: {
-      name: "Proceedings of the ACM on Programming Languages",
-      volume: 9,
-      issue: "PLDI",
-    },
-    hero: FastDM,
-    acmDlUrl: "https://dl.acm.org/doi/10.1145/3729278",
-    date: new Date("2025-06-01"),
-  },
-  {
-    kind: PublicationKind.Journal,
-    title: "Equivalence by Canonicalization for Synthesis-Backed Refactoring",
+      "Equivalence by Canonicalization for Synthesis-Backed Refactoring",
     authors: [
       "Justin Lubin",
       "Jeremy Ferguson*",
@@ -112,7 +309,8 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     kind: PublicationKind.Journal,
-    title: "Syntactic Code Search with Sequence-to-Tree Matching",
+    title:
+      "Syntactic Code Search with Sequence-to-Tree Matching",
     authors: [
       "Gabriel Matute",
       "Wode Ni",
@@ -133,7 +331,11 @@ export const PUBLICATIONS: Publication[] = [
     kind: PublicationKind.Conference,
     title:
       "Low-resourced Languages and Online Knowledge Repositories: A Need-Finding Study",
-    authors: ["Hellina Hailu Nigatu", "John Canny", "Sarah E. Chasins"],
+    authors: [
+      "Hellina Hailu Nigatu",
+      "John Canny",
+      "Sarah E. Chasins",
+    ],
     conference: {
       name: "Proceedings of the 2024 ACM Conference on Human Factors in Computing Systems",
       acronym: "CHI",
@@ -145,15 +347,20 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     kind: PublicationKind.Conference,
-    title: "A Need Finding Study with Low-Resourced Language Content Creators",
-    authors: ["Hellina Hailu Nigatu", "John Canny", "Sarah E. Chasins"],
+    title:
+      "A Need Finding Study with Low-Resourced Language Content Creators",
+    authors: [
+      "Hellina Hailu Nigatu",
+      "John Canny",
+      "Sarah E. Chasins",
+    ],
     conference: {
       name: "Proceedings of the 4th ACM African Human Computer Interaction Conference",
-      acronym: "AfriCHI",
+      acronym:  "AfriCHI",
     },
-    hero: CoDesignTransparency,
+    hero: NeedFindingContentAnalysis,
     acmDlUrl: "https://doi.org/10.1145/3628096.3628738",
-    // youtubeUrl: "https://youtu.be/Z_kUfUHswYg",
+    youtubeUrl: "",
     date: new Date("2023-11-27"),
   },
   {
