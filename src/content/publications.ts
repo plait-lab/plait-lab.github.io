@@ -16,7 +16,8 @@ import Quickpose from "@/../public/publications/quickpose.png";
 import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
 import STFP from "@/../public/publications/stfp.png";
 import STSearch from "@/../public/projects/stsearch.svg";
-
+import PagebreaksHero from "@/../public/projects/pagebreaks.png"
+import reimaginingMisuse from "@/../public/publications/reimagining-misuse.png"
 interface PublicationAttributes {
   title: string;
   authors: string[];
@@ -63,6 +64,32 @@ export type Publication =
   | WorkshopPublication;
 
 export const PUBLICATIONS: Publication[] = [
+  {
+    kind: PublicationKind.Conference,
+    title:
+      "Pagebreaks: Multi-Cell Scopes in Computational Notebooks",
+    authors: ["Eric Rawn", "Sarah E. Chasins"],
+    conference: {
+      name: "Proceedings of the 2025 ACM Conference on Human Factors in Computing Systems",
+      acronym: "CHI",
+    },
+    hero: PagebreaksHero,
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3706598.3713620",
+    date: new Date("2025-05-25"),
+  },
+  {
+    kind: PublicationKind.Conference,
+    title:
+      "Reimagining Misuse as Creative Practice: Impressions and Implications of Usage Norms on Digital Artists",
+    authors: ["Isabel Li", "Ace Chen", "Eric Rawn", "Shm Garanganao Almeda", "Bjoern Hartmann", "Jingyi Li"],
+    conference: {
+      name: "Proceedings of the 2025 ACM Conference on Human Factors in Computing Systems",
+      acronym: "CHI",
+    },
+    hero: reimaginingMisuse,
+    acmDlUrl: "https://dl.acm.org/doi/10.1145/3706598.3714068",
+    date: new Date("2025-05-25"),
+  },
   {
     kind: PublicationKind.Journal,
     title: "Programming by Navigation",
