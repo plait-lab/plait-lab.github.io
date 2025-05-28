@@ -20,7 +20,7 @@ import SoftwareEcosystem from "@/../public/projects/software-ecosystem.svg";
 import STFP from "@/../public/publications/stfp.png";
 import STSearch from "@/../public/projects/stsearch.svg";
 import Translations from "@/../public/projects/translations.png";
-
+import PBCD from "@/../public/projects/perpendInterface.png"
 export interface Project {
   title: string;
   description: string;
@@ -37,6 +37,18 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    title: "Programming by Scaffolded Demonstration",
+    description:
+      "A new programming modality where users construct programs by selecting among the outputs of possible next-step edits to their current program.",
+    image: {
+      src: PBCD,
+      alt: "Programming by Scaffolded Demonstration",
+    },
+    acmDlUrl: "",
+    githubUrl: "https://github.com/angela-bi/p5_pbcd",
+    order: 24,
+  },
+  {
     title: "Programming by Navigation",
     description:
       "A new interactive program synthesis paradigm to empower domain experts to write the code they need without programming expertise.",
@@ -51,7 +63,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Pagebreaks",
     description:
-      "A language construct that implements multi-cell scopes for computational notebooks.  Stems from a close analysis of the interactions between programming language, programming environment, and programmer actions in computational notebook settings",
+      "Global variables in computational notebooks are confusing, but notebook users are reluctant to use functions. We understand why and built a new way to express scopes in notebooks.",
     image: {
       src: Pagebreaks,
       alt: "Pagebreaks",
