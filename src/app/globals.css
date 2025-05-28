@@ -143,3 +143,7 @@ ul {
   list-style-type: square;
   list-style-position: inside;
 }
+
+.black {
+  color: black;
+}

@@ -25,7 +25,7 @@ const Header: React.FC = () => {
         className="text-xl tracking-widest"
         onClick={() => mobileMenuOpen && setMobileMenuOpen(false)}
       >
-        <span className="font-bold text-primary">PLAIT</span>Lab
+        <span className="font-bold text-primary">PLAIT</span><span className="black">Lab</span>
       </Link>
       <nav className="sm:stack-h sm:stack-h-sm hidden sm:visible sm:flex">
         {NAVIGATION.map(({ title, path }) => {

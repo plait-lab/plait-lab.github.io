@@ -46,7 +46,7 @@ export const PROJECTS: Project[] = [
     },
     acmDlUrl: "",
     githubUrl: "https://github.com/angela-bi/p5_pbcd",
-    order: 24,
+    order: 16,
   },
   {
     title: "Programming by Navigation",
@@ -63,7 +63,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Pagebreaks",
     description:
-      "Global variables in computational notebooks are confusing, but notebook users are reluctant to use functions. We understand why and built a new way to express scopes in notebooks.",
+      "Global variables in computational notebooks are confusing, but notebook users are reluctant to use functions. We built an understanding of why, then designed and implemented a new notebook-customized scoping construct.",
     image: {
       src: Pagebreaks,
       alt: "Pagebreaks",
@@ -125,7 +125,7 @@ export const PROJECTS: Project[] = [
     title:
       "DOT: Building a Document Organization tool for the Criminal Justice Domain",
     description:
-      "A cross-discipline co-design project to build a Document Organization Tool for public defenders and investigative journalists working on police use-of-force and misconduct data disclosures.",
+      "A cross-disciplinary co-design project to build a Document Organization Tool for public defenders and investigative journalists working on police use-of-force and misconduct data disclosures.",
     image: {
       src: DOT,
       alt: "DOT: Building a Document Organization tool for the Criminal Justice Domain",
@@ -148,7 +148,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Program Sketches with Scorer Holes",
     description:
-      "A sketch-based program synthesizer that fills sketch holes with scorer programs. Suitable for use with messy, unstructured domains.",
+      "A program synthesizer that fills sketch holes with scorer programs. Suitable for use in domains with messy, unstructured and semi-structured inputs.",
     image: {
       src: Marshall,
       alt: "Program Sketches with Scorer Holes",
@@ -170,7 +170,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Syntactic Code Search with Sequence-to-Tree Matching",
     description:
-      "A new lightweight code search query language based on tokenizers and tree automatas to support accurate and incremental syntactic search queries for interactive settings.",
+      "A new lightweight code search query language based on tokenizers and tree automata to support accurate and incremental syntactic search queries for interactive settings.",
     image: {
       src: STSearch,
       alt: "Syntactic Code Search with Sequence-to-Tree Matching",
@@ -195,7 +195,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Change in Software Ecosystems",
     description:
-      "An analysis of social challenges to propagate breaking changes in existing software ecosystems to discover opportunities for new techniques to automate upgrades.",
+      "An analysis of social barriers to implementing 'breaking changes' in existing software ecosystems; opportunities for new techniques to automate upgrades.",
     image: {
       src: SoftwareEcosystem,
       alt: "Change in Software Ecosystems",
@@ -228,7 +228,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Helena",
     description:
-      "Programming-by-demonstration tool for automating repetitive interactions with webpages. Designed for non-programmers from the social sciences.",
+      "A Programming-by-Demonstration tool for automating repetitive interactions with webpages. Designed for non-programmers from the social sciences.",
     image: {
       src: Helena,
       alt: "Helena",
@@ -270,7 +270,7 @@ export const PROJECTS: Project[] = [
     title:
       "CodePlate: Structured Natural Language Interactions for Arduino Programming Tasks",
     description:
-      "A structured natural language interaction to generate Arduino programs, used to probe how different flavors of natural language program generation impact understanding.",
+      "A structured natural language interaction to generate Arduino programs, used to probe how different styles of natural language programming can affect programmer understanding.",
     image: {
       src: CodePlate,
       alt: "CodePlate: Structured Natural Language Interactions for Arduino Programming Tasks",
