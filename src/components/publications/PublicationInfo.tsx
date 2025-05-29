@@ -3,6 +3,7 @@ import {
   PublicationKind,
   ConferencePublication,
   JournalPublication,
+  WorkshopPublication,
 } from "@/content/publications";
 
 type Props = Publication;
@@ -62,6 +63,20 @@ function formatConferenceName(
   return `${name} (${acronym} '${year})`;
 }
 
+function formatWorkshopName(
+  workshop: WorkshopPublication["conference"],
+  date: Date
+): string {
+  const { name, acronym } = workshop;
+  const year = date.getUTCFullYear().toString().slice(-2);
+
+  if (acronym) {
+    return `${name} (${acronym} '${year})`;
+  }
+
+  return `${name} '${year}`;
+}
+
 /**
  * Formats a journal object into a string with journal name, volume, issue, and year.
  * @example
@@ -103,8 +118,8 @@ const PublicationInfo: React.FC<Props> = (props) => {
       break;
     }
     case PublicationKind.Workshop: {
-      const { workshop } = props;
-      venue = `${workshop} ${date.getUTCFullYear()}`;
+      const { conference } = props;
+      venue = formatWorkshopName(conference, date);
     }
   }
 
