@@ -19,6 +19,8 @@ import SKim from "@/../public/headshots/skim.jpg";
 import LRojas from "@/../public/headshots/lrojas.png";
 import DCao from "@/../public/headshots/dcao.jpg";
 import SKanosue from "@/../public/headshots/skanosue.jpg";
+import LWalker from "@/../public/headshots/lwalker.jpeg";
+import PKallanagoudar from "@/../public/headshots/pkallanagoudar.jpeg";
 
 export enum Role {
   Faculty = "Faculty",
@@ -208,5 +210,21 @@ export const PEOPLE = [
     website: "https://www.linkedin.com/in/liliana-rojasl/",
     alum: true,
     graduation: 2024
+  },
+  {
+    id: "lwalker",
+    name: "Laila Walker",
+    role: Role.UndergraduateStudent,
+    headshot: LWalker,
+    alum: true,
+    graduation: 2025
+  },
+  {
+    id: "pkallanagoudar",
+    name: "Pragya Kallanagoudar",
+    role: Role.UndergraduateStudent,
+    headshot: PKallanagoudar,
+    alum: true,
+    graduation: 2025
   },
 ];
