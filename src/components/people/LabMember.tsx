@@ -23,7 +23,7 @@ const LabMember: React.FC<Props> = ({ name, role, website, headshot }) => {
       />
       <div className={cs(website ? "text-primary" : "text-black")}>
         <p className="text-sm font-bold">{name}</p>
-        {role !== Role.Alumni ? <p className="text-xs italic">{role}</p> : null}
+        <p className="text-xs italic">{role}</p>
       </div>
     </a>
   );
