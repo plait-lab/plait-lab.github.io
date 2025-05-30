@@ -17,6 +17,12 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the result!
 
+To see issues that will prevent github from deploying, even though run dev won't fail:
+
+```sh
+npm run build
+```
+
 ## Recommended Extensions
 
 If using VSCode, there are a few extensions that will help make the development experience smoother.

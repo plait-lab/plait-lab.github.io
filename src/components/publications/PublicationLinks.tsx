@@ -88,19 +88,20 @@ const PublicationLinks: React.FC<Props> = (props) => {
     }
     case PublicationKind.Workshop: {
       const { pdfUrl } = props;
-
-      body = (
-        <a
-          href={pdfUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="stack-h stack-h-xs mt-2 items-center transition-opacity hover:opacity-75"
-        >
-          {ExternalLinkIcon}
-          <span className="font-mono text-xs">PDF</span>
-        </a>
-      );
-      break;
+      if (pdfUrl){
+        body = (
+          <a
+            href={pdfUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="stack-h stack-h-xs mt-2 items-center transition-opacity hover:opacity-75"
+          >
+            {ExternalLinkIcon}
+            <span className="font-mono text-xs">PDF</span>
+          </a>
+        );
+        break;
+      }
     }
   }
 

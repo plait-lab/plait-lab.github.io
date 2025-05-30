@@ -13,7 +13,9 @@ const PublicationTitle: React.FC<React.PropsWithChildren<Props>> = (props) => {
       break;
     case PublicationKind.Workshop:
       const { pdfUrl } = props;
-      pdfHref = pdfUrl;
+      if (pdfUrl){
+        pdfHref = pdfUrl;
+      }
       break;
   }
 
