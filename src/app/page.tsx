@@ -6,14 +6,14 @@ import LabAlum from "@/components/people/LabAlum";
 import Project from "@/components/projects/Project";
 import Heading from "@/components/shared/Heading";
 import Text from "@/components/shared/Text";
-import { PEOPLE, Role } from "@/content/people";
+import { PEOPLE, Role, RoleOrder } from "@/content/people";
 import { PROJECTS } from "@/content/projects";
 import BerkeleyMini from "@/../public/images/berkeley-mini.png";
 
 const Index = () => {
   const [currentLabMembers, alumni] = partition(
     PEOPLE,
-    (person) => person.role !== Role.Alumni
+    (person) => !(person.alum)
   );
 
   return (
@@ -70,16 +70,16 @@ const Index = () => {
       <section className="stack stack-lg p-4">
         <Heading level="h2">People</Heading>
         <div className="stack stack-sm">
-          <div className="grid grid-cols-12 gap-5">
-            {currentLabMembers.map((person) => {
+          <div className="grid grid-cols-12 gap-10">
+            {orderBy(currentLabMembers, [p => RoleOrder[p.role], p => p.name.trim().split(" ").slice(-1)[0]], ["asc", "asc"]).map((person) => {
               return <LabMember key={person.id} {...person} />;
             })}
           </div>
         </div>
         <div className="stack stack-sm">
           <Heading level="h3">Alums</Heading>
-          <div className="grid grid-cols-12 gap-5">
-            {alumni.map((person) => {
+          <div className="grid grid-cols-12 gap-2">
+            {orderBy(alumni, (p) => p.graduation, ["desc"]).map((person) => {
               return <LabAlum key={person.id} {...person} />;
             })}
           </div>

@@ -22,13 +22,22 @@ import SKanosue from "@/../public/headshots/skanosue.jpg";
 
 export enum Role {
   Faculty = "Faculty",
-  PhDCandidate = "Ph.D. Candidate",
-  PhdStudent = "Ph.D. Student",
-  MScStudent = "M.Sc. Student",
+  PhDCandidate = "PhD Candidate",
+  PhdStudent = "PhD Student",
+  MScStudent = "MS Student",
   UndergraduateStudent = "Undergraduate Student",
-  UndergraduateAssistant = "Undergraduate Student Assistant",
-  Alumni = "Alumni",
+  StudentAssistant = "Assistant",
+  OnLeave = "PhD Student (on leave)"
 }
+export const RoleOrder: Record<Role, number> = {
+  [Role.Faculty]: 1,
+  [Role.PhDCandidate]: 2,
+  [Role.PhdStudent]: 3,
+  [Role.MScStudent]: 4,
+  [Role.UndergraduateStudent]: 5,
+  [Role.StudentAssistant]: 6,
+  [Role.OnLeave]: 7,
+};
 
 export interface Person {
   id: string;
@@ -36,6 +45,8 @@ export interface Person {
   role: Role;
   headshot: StaticImageData;
   website?: string;
+  alum: Boolean;
+  graduation?: number;
 }
 
 export const PEOPLE = [
@@ -45,13 +56,16 @@ export const PEOPLE = [
     role: Role.Faculty,
     headshot: SChasins,
     website: "https://schasins.com/",
+    alum: false,
   },
   {
     id: "rgarcia",
     name: "Rolando Garcia",
-    role: Role.Alumni,
+    role: Role.PhDCandidate,
     headshot: RGarcia,
     website: "https://rlnsanz.github.io/",
+    alum: true,
+    graduation: 2024
   },
   {
     id: "hhailunigatu",
@@ -59,13 +73,15 @@ export const PEOPLE = [
     role: Role.PhDCandidate,
     headshot: HHailuNigatu,
     website: "https://hhnigatu.github.io/",
+    alum: false,
   },
   {
     id: "slim",
     name: "Slim Lim",
-    role: Role.PhdStudent,
+    role: Role.OnLeave,
     headshot: SLim,
     website: "https://slim.computer/",
+    alum: false,
   },
   {
     id: "jlubin",
@@ -73,6 +89,7 @@ export const PEOPLE = [
     role: Role.PhDCandidate,
     headshot: JLubin,
     website: "https://jlubin.net",
+    alum: false,
   },
   {
     id: "dcao",
@@ -80,13 +97,15 @@ export const PEOPLE = [
     role: Role.PhdStudent,
     headshot: DCao,
     website: "https://cao.sh",
+    alum: false,
   },
   {
     id: "gmatute",
     name: "Gabriel Matute",
-    role: Role.Alumni,
+    role: Role.MScStudent,
     headshot: GMatute,
     website: "https://about.gmatute.dev/",
+    alum: true,
   },
   {
     id: "erawn",
@@ -94,6 +113,7 @@ export const PEOPLE = [
     role: Role.PhdStudent,
     headshot: ERawn,
     website: "https://www.ericrawn.media/",
+    alum: false,
   },
   {
     id: "pziegler",
@@ -101,71 +121,92 @@ export const PEOPLE = [
     role: Role.PhdStudent,
     headshot: PZiegler,
     website: "https://parkerziegler.com/",
+    alum: false,
   },
   {
     id: "djayagopal",
     name: "Dhanya Jayagopal",
-    role: Role.Alumni,
+    role: Role.MScStudent,
     headshot: DJayagopal,
+    alum: true,
+    graduation: 2022
   },
   {
     id: "jyim",
     name: "Jacob Yim",
-    role: Role.Alumni,
+    role: Role.MScStudent,
     headshot: JYim,
+    alum: true,
+    graduation: 2024
   },
   {
     id: "skanosue",
     name: "Sora Kanosue",
-    role: Role.Alumni,
+    role: Role.MScStudent,
     headshot: SKanosue,
     website: "https://skanosue.com",
+    alum: true,
+    graduation: 2024
   },
   {
     id: "lrennels",
     name: "Lisa Rennels",
-    role: Role.Alumni,
+    role: Role.MScStudent,
     headshot: LRennels,
     website: "https://lisarennels.com/",
+    alum: true,
+    graduation: 2024
   },
   {
     id: "adermirci",
     name: "Arda Demirci",
-    role: Role.Alumni,
+    role: Role.UndergraduateStudent,
     headshot: ADemirci,
     website: "https://www.linkedin.com/in/ardademirci14/",
+    alum: true,
+    graduation: 2022
   },
   {
     id: "rhicke",
     name: "Rebecca Hicke",
-    role: Role.Alumni,
+    role: Role.UndergraduateStudent,
     headshot: RHicke,
     website: "https://rmatouschekh.github.io/",
+    alum: true,
+    graduation: 2021
   },
   {
     id: "skim",
     name: "Selina Kim",
-    role: Role.Alumni,
+    role: Role.UndergraduateStudent,
     headshot: SKim,
+    alum: true,
+    graduation: 2022
   },
   {
     id: "rmishra",
     name: "Rajavi Mishra",
-    role: Role.Alumni,
+    role: Role.UndergraduateStudent,
     headshot: RMishra,
+    alum: true,
+    graduation: 2022
   },
   {
     id: "hperlstein",
     name: "Hannah Perlstein",
-    role: Role.Alumni,
+    role: Role.UndergraduateStudent,
     headshot: HPerlstein,
     website: "https://www.linkedin.com/in/hannah-perlstein/",
+    alum: true,
+    graduation: 2022
   },
   {
     id: "lrojas",
     name: "Liliana Rojas",
-    role: Role.Alumni,
+    role: Role.StudentAssistant,
     headshot: LRojas,
     website: "https://www.linkedin.com/in/liliana-rojasl/",
+    alum: true,
+    graduation: 2024
   },
 ];
