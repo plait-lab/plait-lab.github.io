@@ -242,8 +242,9 @@ export const PUBLICATIONS: Publication[] = [
       "Enhancing Translation for Indigenous Languages: Experiments with Multilingual Models",
     authors: [
       
-       "Hellina Hailu Nigatu", 
+       
       "Atnafu Lambebo Tonja", 
+       "Hellina Hailu Nigatu",
       "Olga Kolesnikova",
        "Grigori Sidorov", 
        "Alexander Gelbukh",
