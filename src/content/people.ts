@@ -13,6 +13,8 @@ import LRennels from "@/../public/headshots/lrennels.jpeg";
 import RHicke from "@/../public/headshots/rhicke.jpeg";
 import RMishra from "@/../public/headshots/rmishra.jpg";
 import JYim from "@/../public/headshots/jyim.jpg";
+import JFerguson from "@/../public/headshots/jferguson.jpg";
+import KYe from "@/../public/headshots/kye.jpg";
 import HPerlstein from "@/../public/headshots/hperlstein.jpeg";
 import ADemirci from "@/../public/headshots/ademirci.jpeg";
 import SKim from "@/../public/headshots/skim.jpg";
@@ -138,8 +140,27 @@ export const PEOPLE = [
     name: "Jacob Yim",
     role: Role.MScStudent,
     headshot: JYim,
+    website: "https://jcbym.github.io/",
     alum: true,
     graduation: 2024
+  },
+  {
+    id: "jferguson",
+    name: "Jeremy Ferguson",
+    role: Role.MScStudent,
+    headshot: JFerguson,
+    website: "https://www.linkedin.com/in/jeremy-ferguson-66051715a/",
+    alum: true,
+    graduation: 2024
+  },
+  {
+    id: "kye",
+    name: "Kevin Ye",
+    role: Role.UndergraduateStudent,
+    headshot: KYe,
+    website: "https://www.linkedin.com/in/kevinyeeeee/",
+    alum: true,
+    graduation: 2023
   },
   {
     id: "skanosue",
