@@ -23,6 +23,8 @@ import DCao from "@/../public/headshots/dcao.jpg";
 import SKanosue from "@/../public/headshots/skanosue.jpg";
 import LWalker from "@/../public/headshots/lwalker.jpeg";
 import PKallanagoudar from "@/../public/headshots/pkallanagoudar.jpeg";
+import ABi from "@/../public/headshots/abi.png";
+import XLiu from "@/../public/headshots/xliu.jpg";
 
 export enum Role {
   Faculty = "Faculty",
@@ -245,6 +247,23 @@ export const PEOPLE = [
     name: "Pragya Kallanagoudar",
     role: Role.UndergraduateStudent,
     headshot: PKallanagoudar,
+    alum: true,
+    graduation: 2025
+  },
+  {
+    id: "abi",
+    name: "Angela Bi",
+    role: Role.UndergraduateStudent,
+    headshot: ABi,
+    website: "https://angelabi.framer.website",
+    alum: true,
+    graduation: 2025
+  },
+  {
+    id: "xliu",
+    name: "Xiaorui Liu",
+    role: Role.UndergraduateStudent,
+    headshot: XLiu,
     alum: true,
     graduation: 2025
   },
