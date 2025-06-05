@@ -20,7 +20,7 @@ const LabAlum: React.FC<Props> = ({ name, role, website, headshot }) => {
       <Image
         src={headshot}
         alt={name}
-        className="h-12 w-12 rounded object-cover shadow"
+        className="h-12 w-12 rounded object-cover shadow aspect-square fill"
       />
       <div className={cs(website ? "text-primary" : "text-black")}>
         <p className="text-sm font-bold">{name}, <span className="text-xs italic">{role.split(" ")[0]}</span></p>
