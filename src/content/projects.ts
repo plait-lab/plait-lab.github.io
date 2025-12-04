@@ -56,6 +56,7 @@ export const PROJECTS: Project[] = [
       src: PBN,
       alt: "Programming by Navigation",
     },
+    href: "https://honeybee-lang.org",
     acmDlUrl: "https://doi.org/10.1145/3729264",
     githubUrl: "https://github.com/justinlubin/honeybee",
     order: 24,
