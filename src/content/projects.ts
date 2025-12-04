@@ -59,6 +59,7 @@ export const PROJECTS: Project[] = [
     href: "https://honeybee-lang.org",
     acmDlUrl: "https://doi.org/10.1145/3729264",
     githubUrl: "https://github.com/justinlubin/honeybee",
+    youtubeUrl: "https://youtu.be/W7N9cU6KcGE",
     order: 24,
   },
   {
