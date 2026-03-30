@@ -25,6 +25,8 @@ import LWalker from "@/../public/headshots/lwalker.jpeg";
 import PKallanagoudar from "@/../public/headshots/pkallanagoudar.jpeg";
 import ABi from "@/../public/headshots/abi.png";
 import XLiu from "@/../public/headshots/xliu.jpg";
+import AMomin from "@/../public/headshots/amomin.jpg";
+
 
 export enum Role {
   Faculty = "Faculty",
@@ -266,5 +268,13 @@ export const PEOPLE = [
     headshot: XLiu,
     alum: true,
     graduation: 2025
+  },
+  {
+    id: "amomin",
+    name: "Arfa Momin",
+    role: Role.UndergraduateStudent,
+    headshot: AMomin,
+    alum: false,
+    graduation: 2026
   },
 ];
