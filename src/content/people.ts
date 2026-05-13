@@ -26,6 +26,7 @@ import PKallanagoudar from "@/../public/headshots/pkallanagoudar.jpeg";
 import ABi from "@/../public/headshots/abi.png";
 import XLiu from "@/../public/headshots/xliu.jpg";
 import AMomin from "@/../public/headshots/amomin.jpg";
+import MPreigh from "@/../public/headshots/mpreigh.jpg";
 
 
 export enum Role {
@@ -276,5 +277,13 @@ export const PEOPLE = [
     headshot: AMomin,
     alum: false,
     graduation: 2026
+  },
+  {
+    id: "mpreigh",
+    name: "Marlena Preigh",
+    role: Role.PhdStudent,
+    headshot: MPreigh,
+    website: "https://marlenapreigh.my.canva.site",
+    alum: false,
   },
 ];
