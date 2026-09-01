@@ -37,15 +37,22 @@ const Index = () => {
         </div>
       </section>
       <section className="stack stack-md p-4">
+        
+        <Heading level="h2">Research Mission</Heading>
+
+        <div>
+        We build pluralistic programming "power tools" to amplify the competencies of our collaborators.
+        By co-designing with and for the users of our tools&mdash;and centering designs on a sense of craft, surprise, and mastery&mdash;we build tools for a more collective world.        
+        </div>
+
         <Heading level="h2">Research Themes</Heading>
         <div className="stack stack-sm">
           <div>
-            <Heading level="h3">PL for Social Good</Heading>
+            <Heading level="h3">Prosocial PL</Heading>
             <Text>
-              We invent usable programming tools to help teams with little or no 
-              formal computing education&#8212;social scientists, journalists, lawyers, 
-              scientists, advocates for marginalized groups, and other domain experts. 
-              (Working for social good and struggling to write code or process data? Get in touch!)
+              We collaborate with social scientists, journalists, lawyers, 
+              scientists, and many other domain experts from outside computing. 
+              (Interested in support with your programming tasks? Get in touch!)
             </Text>
           </div>
           <div>
