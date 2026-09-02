@@ -27,6 +27,7 @@ import ABi from "@/../public/headshots/abi.png";
 import XLiu from "@/../public/headshots/xliu.jpg";
 import AMomin from "@/../public/headshots/amomin.jpg";
 import MPreigh from "@/../public/headshots/mpreigh.jpg";
+import JLee from "@/../public/headshots/jlee.jpg";
 
 
 export enum Role {
@@ -284,6 +285,14 @@ export const PEOPLE = [
     role: Role.PhdStudent,
     headshot: MPreigh,
     website: "https://marlenapreigh.my.canva.site",
+    alum: false,
+  },
+  {
+    id: "jlee",
+    name: "Jay Lee",
+    role: Role.PhdStudent,
+    headshot: JLee,
+    website: "https://jaylee.pl/",
     alum: false,
   },
 ];
